@@ -6,10 +6,14 @@
 объявлений событий. Русский перевод сохранён. [Разбор краша и ограничения](CRASH_ANALYSIS_RU.md).
 
 **Краш при новой партии за Германию сохранился после rufix.2.** Проверены
-загруженные пользователем основной RT56 и русификатор. Для следующего теста
-подготовлен [диагностический патч](https://github.com/Avrorka25/hoi4/raw/refs/heads/main/Road_to_56_RP_diagnostic.zip),
-который добавляет отметки в game.log. Это диагностика, а не подтверждённое
-исправление вылета. [Инструкция и путь к game.log](DIAGNOSTIC_RU.md).
+загруженные пользователем основной RT56 и русификатор. Диагностический запуск
+подтвердил завершение истории советников; в журнале нет отметок on_startup.
+Вылет сохраняется и без Road to 56 Rus. Для уточнения класса объекта в дампе
+нужен hoi4.exe той же установленной версии; подготовлен читатель метаданных
+tools/inspect_crash.py. [Подробный разбор](CRASH_ANALYSIS_RU.md).
+[Диагностический патч](https://github.com/Avrorka25/hoi4/raw/refs/heads/main/Road_to_56_RP_diagnostic.zip)
+добавляет отметки в game.log. Это диагностика, а не подтверждённое исправление.
+[Инструкция и путь к game.log](DIAGNOSTIC_RU.md).
 [Отмена диагностических изменений](https://github.com/Avrorka25/hoi4/raw/refs/heads/main/Road_to_56_RP_diagnostic_rollback.zip).
 
 - [Полный исправленный мод](https://github.com/Avrorka25/hoi4/blob/main/Road_to_56_RP_fixed.zip) — 132 МБ.
