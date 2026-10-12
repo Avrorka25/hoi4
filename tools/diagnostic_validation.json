@@ -1,0 +1,20 @@
+{
+  "static_checks_passed": true,
+  "counts": {
+    "event_declarations_with_reference_base": 10368,
+    "utf8_text_files": 258,
+    "clausewitz_files": 255,
+    "dds_headers": 1562,
+    "lua_syntax_files": 3,
+    "localisation_files": 82,
+    "localisation_entries": 29328,
+    "russian_entries": 14664,
+    "country_tags": 17,
+    "states_with_reference_base": 1144,
+    "provinces_with_reference_base": 10381
+  },
+  "errors": [],
+  "limitations": [
+    "Game runtime, base-game files, DLC, saved games and the installed mod load order are untested."
+  ]
+}

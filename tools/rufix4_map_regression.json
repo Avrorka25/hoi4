@@ -1,0 +1,17 @@
+{
+  "rufix3_rejected": true,
+  "rufix3_missing_state_sites": 10,
+  "base_passed": true,
+  "rufix4_passed": true,
+  "synchronization_idempotent": true,
+  "removed_air_base_detected": true,
+  "all_naval_spawn_records_unchanged_from_base": true,
+  "extra_state_building_counts_match_original_rp": true,
+  "state_site_validation": {
+    "static_checks_passed": true,
+    "states_checked": 1144,
+    "state_sites_checked": 11440,
+    "errors": []
+  },
+  "runtime_tested": false
+}

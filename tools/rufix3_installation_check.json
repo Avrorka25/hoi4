@@ -1,0 +1,10 @@
+{
+  "package_version": "1.19-rufix.3",
+  "patch_applied_over_rufix2_with_diagnostics": true,
+  "every_mod_file_matches_full_archive": true,
+  "diagnostic_files_reset": 14,
+  "zip_crc_checks_passed": true,
+  "russian_files_unchanged": true,
+  "game_executable_and_dump_not_packaged": true,
+  "runtime_tested": false
+}

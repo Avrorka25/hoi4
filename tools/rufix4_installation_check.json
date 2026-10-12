@@ -1,0 +1,7 @@
+{
+  "package_version": "1.19-rufix.4",
+  "rufix3_overlay_matches_full_archive": true,
+  "russian_files_byte_identical_to_rufix3": 41,
+  "exe_dump_and_raw_logs_absent": true,
+  "runtime_tested": false
+}

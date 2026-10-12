@@ -1,0 +1,57 @@
+{
+  "crash": "hoi4_20261012_170124.7z",
+  "game_version": "1.19.3.0.c01a",
+  "enabled_mods": [
+    "The Road to 56",
+    "The Road to 56 RP (RU fixes)"
+  ],
+  "russian_translation_addon_disabled": true,
+  "runtime_crash_persists": true,
+  "gameplay_changes_made_this_turn": false,
+  "diagnostic_markers": [
+    "RPDIAG|START|history/general/generic_advisors.txt",
+    "RPDIAG|END|history/general/generic_advisors.txt"
+  ],
+  "startup_effect_markers_found": 0,
+  "last_game_log_phase": "Launching SINGLEPLAYER-game",
+  "native_analysis": {
+    "exception_code": "0xc0000005",
+    "fault_rva": "0xcf2c40",
+    "access": "read",
+    "invalid_address": "0xc8",
+    "rax_is_null": true,
+    "matching_executable_supplied": false,
+    "objects": {
+      "rcx": {
+        "vtable_rva": "0x27211b0",
+        "type": null
+      },
+      "r12": {
+        "vtable_rva": "0x2721158",
+        "type": null
+      },
+      "r14": {
+        "vtable_rva": "0x295e818",
+        "type": null
+      },
+      "current_loop_item": {
+        "vtable_rva": "0x2971b18",
+        "type": null
+      }
+    }
+  },
+  "same_native_analysis_as_previous_dump": true,
+  "standalone_error_log_matches_archive": true,
+  "technology_definitions_from_supplied_mods": {
+    "base": 887,
+    "with_addon": 893,
+    "base_definitions_removed": 0
+  },
+  "remaining_requirement": "Exact installed hoi4.exe to read object RTTI metadata missing from the minidump.",
+  "reader_verification": {
+    "dump_reader_exercised_on_two_real_crashes": true,
+    "synthetic_PE_RTTI_and_ASLR_test_passed": true,
+    "mismatched_PE_version_rejected": true,
+    "actual_game_PE_not_yet_supplied": true
+  }
+}

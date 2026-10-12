@@ -1,0 +1,75 @@
+{
+  "basis": "1.19-rufix.2",
+  "runtime_crash_fixed": false,
+  "purpose": "Add log-only markers for a new-game crash; do not change gameplay logic.",
+  "instrumented_startup_effect_blocks": 17,
+  "files": {
+    "common/on_actions/000_ccshtool_on_actions.txt": {
+      "original_sha256": "25cecb227f840c746a13eb7ab301ea6c59031cc6ed1586bddaf0a04d1acdd649",
+      "diagnostic_sha256": "ab3d155a5f3c16abda4a9afc4573d32437617645a6129cac4d2268bb03436c84"
+    },
+    "common/on_actions/000_rt56rp_game_rules_on_actions.txt": {
+      "original_sha256": "0c92f14604f01753e4e5b33cc67c31ea99fa47ea5001a47d10bd82b57d53e70e",
+      "diagnostic_sha256": "c3bcb46d64cc6bbd4ef6df992845523347c20eea83d40fa67ea0a2537eb89ae0"
+    },
+    "common/on_actions/00_on_actions.txt": {
+      "original_sha256": "2d210d328e0e5b118334dbefc90a1d1e9429fd63af0e4b71b36968bbc2d637d9",
+      "diagnostic_sha256": "2a77ff1390937cc1e498961b3b1dfbbbf8384437eb52b3d8e7b98ad20aeb432b"
+    },
+    "common/on_actions/08_bba_on_actions.txt": {
+      "original_sha256": "da5ed6ce23b7e44aefcdcf9c5fd0e752f054876445005673d9acec2e04d45115",
+      "diagnostic_sha256": "f213864fc682dfdff43ada650d95d03bb9e40f6f94cbe634ba2dbb05fe3b7020"
+    },
+    "common/on_actions/letter_on_actions.txt": {
+      "original_sha256": "95b5ecd890668766a9de528bcf0e58d7eee114dd0bb5a3161f874f2189084c75",
+      "diagnostic_sha256": "93a3cb06e95072011ebf11cc8a8d2c708b34e348bd125119ad90fe8b93fdc1a1"
+    },
+    "common/on_actions/rt56rp_log_on_actions.txt": {
+      "original_sha256": "f2d5d384edf1d1fa5f706d313cabd8c6192425ebf49d2100cd79f7fdc58f4ccf",
+      "diagnostic_sha256": "12e36228844526e4569e70f9a49b13140a1a63692137ee43879910a92b486718"
+    },
+    "common/on_actions/rt56rp_merc_on_actions.txt": {
+      "original_sha256": "8d7d5cf0384e3f7ef3d4397d1aeeab10e96b751b92d81c3962c877814927c6e3",
+      "diagnostic_sha256": "07d82b7d0421996886c6cc6ef797bda0bf9bbc7461a5041d1ca2d3c112c9e304"
+    },
+    "common/on_actions/rt56rp_on_actions.txt": {
+      "original_sha256": "0b61fd31dff84b59808c7fc502c64410385cf3e9feaed89a5ff2086f0aacf7ff",
+      "diagnostic_sha256": "7b12314544795ba3ab8b177b1943d9cf39af6eed85e845d794a27a174e5c81ce"
+    },
+    "common/on_actions/rt56rp_releasables_on_actions.txt": {
+      "original_sha256": "cb1021925fc683ccd0b885cf9367de11d32016fc87b8aa49eff917620e053d32",
+      "diagnostic_sha256": "cc42225ed3fe0c6e67edd4ba480fe71b4dd586d7cb16c2ed4667019f0158db6c"
+    },
+    "common/on_actions/rt56rp_rework_on_actions.txt": {
+      "original_sha256": "c729bf7b0d859d305b4816ffe5aa3a1b3813d02d06504100470db2c0fc397189",
+      "diagnostic_sha256": "2ac00464923faa28a42aaffb9dc80b38829ff2c0e533a28b8bebf2f24ade0b93"
+    },
+    "common/on_actions/rt56rp_rmt_musictriggers_on_actions.txt": {
+      "original_sha256": "34fbced36b9bbafcfe50ab1c95868b8a8a9c2be3784aaa37628b1a0ed757136d",
+      "diagnostic_sha256": "fc0f4487e1823da00c1975622130869b437a30e952f023859580333fa80b3c7b"
+    },
+    "common/on_actions/rt56rp_superevents_on_actions.txt": {
+      "original_sha256": "5bcfaa3be2c20519cfd7f20e394ddabdda0176f7cbe91c2a5277e8a7901edcaa",
+      "diagnostic_sha256": "1ec609ac1c23a5244c79ff9bac53b5c2bc50dea9e20863a08f82470a17c7e3f4"
+    },
+    "common/on_actions/state_interactions_on_actions.txt": {
+      "original_sha256": "f13befe513eb398c3b6b6c1e14d2cb5c1049ce182198dadf6e1a647d3860f87f",
+      "diagnostic_sha256": "eb3f7e2296fa14748fca0fd84805670964a7f32c4c39455cc476b6646c941472"
+    },
+    "history/general/generic_advisors.txt": {
+      "original_sha256": "7a034d21b954a0364287f8b15825d4335b15ef8213beb7433fbc7098160d3f73",
+      "diagnostic_sha256": "bb62f49deed2be4813b07a378ea092f6361e4cb97aa1331958133efdc2ee4f61"
+    }
+  },
+  "archives": {
+    "Road_to_56_RP_diagnostic.zip": "88f1fa45254023ee1a9a41e47e046b9850b48127955d4a7f3ea0e58b23baf0de",
+    "Road_to_56_RP_diagnostic_rollback.zip": "0080c1c3b484d9351fb7d8d6f326955f20593e1fbb1a05d4dab3231ffe396bbe"
+  },
+  "static_verification": {
+    "gameplay_tokens_unchanged": true,
+    "rollback_files_byte_identical": true,
+    "zip_crc_checks_passed": true,
+    "validation_with_supplied_rt56_passed": true,
+    "game_runtime_tested": false
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "source": "User-supplied The Road to 56 map/buildings.txt",
+  "extra_states": [
+    1144
+  ],
+  "relocated_building_points": [
+    {
+      "line": 65793,
+      "province": 5008,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 65801,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 65804,
+      "province": 13393,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 65806,
+      "province": 13393,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 65807,
+      "province": 5008,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 65808,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 65831,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    },
+    {
+      "line": 65839,
+      "province": 5008,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    },
+    {
+      "line": 65843,
+      "province": 13393,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    },
+    {
+      "line": 70605,
+      "province": 5214,
+      "from_state": 495,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 70659,
+      "province": 5214,
+      "from_state": 495,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 70712,
+      "province": 5214,
+      "from_state": 495,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    }
+  ],
+  "repositioned_source_state_points": [
+    {
+      "line": 65790,
+      "before": "1072;air_base;1958.00;10.50;862.00;1.91;0",
+      "after": "1072;air_base;1867.00;9.85;708.00;3.10;0"
+    },
+    {
+      "line": 65822,
+      "before": "1072;anti_air_building;1954.00;10.57;872.00;1.20;0",
+      "after": "1072;anti_air_building;1784.00;9.80;764.00;5.60;0"
+    },
+    {
+      "line": 65826,
+      "before": "1072;steel_mill;1934.00;10.10;856.00;1.52;0",
+      "after": "1072;steel_mill;1741.00;9.80;765.00;6.11;0"
+    },
+    {
+      "line": 65828,
+      "before": "1072;rubber_refinery;1911.00;10.40;844.00;3.96;0",
+      "after": "1072;rubber_refinery;1783.00;9.80;728.00;5.36;0"
+    },
+    {
+      "line": 65844,
+      "before": "1072;rocket_site_spawn;1869.00;9.80;836.00;0.27;0",
+      "after": "1072;rocket_site_spawn;1817.00;10.75;926.00;0.65;0"
+    },
+    {
+      "line": 70707,
+      "before": "495;nuclear_reactor_spawn;1859.00;12.10;944.00;1.36;0",
+      "after": "495;nuclear_reactor_spawn;1820.00;9.70;799.00;3.90;0"
+    }
+  ],
+  "added_extra_state_points": [
+    "1144;arms_factory;1930.00;10.20;865.00;3.54;0",
+    "1144;arms_factory;1905.00;10.65;881.00;1.12;0",
+    "1144;arms_factory;1965.00;10.30;899.00;2.88;0",
+    "1144;arms_factory;1961.00;10.40;876.00;2.16;0",
+    "1144;arms_factory;1861.00;9.78;878.00;6.25;0",
+    "1144;arms_factory;1907.00;10.32;888.00;2.76;0",
+    "1144;industrial_complex;1913.00;10.10;888.00;0.77;0",
+    "1144;industrial_complex;1939.00;10.40;870.00;2.29;0",
+    "1144;industrial_complex;1949.00;10.68;859.00;1.62;0",
+    "1144;industrial_complex;1931.00;10.30;880.00;6.02;0",
+    "1144;industrial_complex;1938.00;10.40;895.00;5.41;0",
+    "1144;industrial_complex;1930.00;10.43;896.00;5.35;0",
+    "1144;air_base;1863.00;9.80;911.00;0.80;0",
+    "1144;stronghold_network;1868.00;10.00;905.00;1.62;0",
+    "1144;anti_air_building;1902.00;10.48;849.00;6.01;0",
+    "1144;anti_air_building;1953.00;10.70;867.00;1.84;0",
+    "1144;anti_air_building;1954.00;10.60;856.00;1.88;0",
+    "1144;synthetic_refinery;1888.00;9.98;852.00;5.50;0",
+    "1144;fuel_silo;1921.00;10.10;886.00;4.52;0",
+    "1144;radar_station;1921.00;10.10;893.00;0.62;0",
+    "1144;steel_mill;1921.00;10.00;867.00;1.11;0",
+    "1144;aluminum_mill;1956.00;10.43;874.00;3.54;0",
+    "1144;rubber_refinery;1909.00;10.03;859.00;2.03;0",
+    "1144;nuclear_reactor_spawn;1922.00;10.10;872.00;2.27;0",
+    "1144;rocket_site_spawn;1954.00;10.50;902.00;4.62;0"
+  ],
+  "building_records": 71888,
+  "port_validation": {
+    "static_checks_passed": true,
+    "naval_spawns_checked": 2544,
+    "distinct_spawn_provinces": 2541,
+    "errors": [],
+    "warnings": [
+      {
+        "province": 4206,
+        "note": "2 naval spawns project to the same sampled province"
+      },
+      {
+        "province": 7683,
+        "note": "2 naval spawns project to the same sampled province"
+      },
+      {
+        "province": 12147,
+        "note": "2 naval spawns project to the same sampled province"
+      }
+    ]
+  },
+  "state_site_validation": {
+    "static_checks_passed": true,
+    "states_checked": 1144,
+    "state_sites_checked": 11440,
+    "errors": []
+  }
+}
