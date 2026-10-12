@@ -1,0 +1,5229 @@
+{
+  "version": "1.19-v2fix.1",
+  "source_archive_sha256": "2f5804081f8c7cd7c5debe017b67c5b8f633fd350a48b5972e144758b4fe8f9d",
+  "duplicate_aliases_removed": {
+    "technologies": 22,
+    "characters": 52,
+    "ideas": 231,
+    "traits": 24,
+    "organizations": 23,
+    "equipment": 1,
+    "dynamic_modifiers": 2,
+    "modifiers": 2,
+    "subdoctrines": 2,
+    "focuses": 198
+  },
+  "changes": [
+    {
+      "kind": "unclosed_submarine_doctrine",
+      "file": "common/doctrines/subdoctrines/sea/navy_submarine_doctrines.txt"
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "early_transport_plane",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "jungle_heavy_tanks",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "armor_piercing_bombs",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "jungle_training_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "desert_training_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "hills_training_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "urban_training_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "PHI_battalion_combat_teams",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "revolutionary_mass_assault",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_CZE_establish_air_defense_zones",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_merge_the_financial_and_state_guard_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_anti_tank_development_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_horska_artillery",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_recon_in_force",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_improved_supply_dumps",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_intergrate_fortification_engineers",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "MUN_camo_netting",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "northern_territory_recon_support_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "cruiser_submarines",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "midget_submarines",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "AST_war_carriers_tech",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "technologies",
+      "id": "construction_a",
+      "file": "common/technologies/zzz_miyagipatch_1_19_shadowed_techs.txt",
+      "retained_files": [
+        "common/technologies/r56_techs.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_adela_walsh",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_arthur_fadden",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_billy_hughes",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_james_scullin",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_john_crace",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_maurice_blackburn",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_percy_stephensen",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "AST_reginald_saunders",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/AST.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_antonin_hampl",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_augustin_voloshyn",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_bedrich_homola",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_edvard_benesh",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_emil_hacha",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_frantisek_hrabcik",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_georg_placzek",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_jan_syrovy",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_josef_shnejdarek",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_josef_votruba",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_jozef_tiso",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_karel_pavala",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_karel_pavala_army",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_konrad_henlein",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_lev_prchala",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_milan_hodza",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_vojtech_tuka",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "CZE_vojtyech_luzha",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/CZE.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "FRA_emile_laure",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/FRA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "FRA_jean_romatet",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/FRA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "FRA_joseph_doumenc",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/FRA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "FRA_marcel_deat",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/FRA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_a_t_van_starkenborgh_stachouwer",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_alauddin_syah",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_amir_sjarifuddin_harahap",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_andries_cornelis_dirk_de_graeff",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_dewa_geg",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_dick_de_hoog",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_djatikoesoemo",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_gerardus_johannes_berenschot",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_harry_kuneman",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_iskandar_sjah",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_national_committee",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_soengkono",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_sudirman",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_sultan_muhibuddin",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_sutan_sjahrir",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_syarif_kasim",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "INS_syarif_muhammad_alkadrie",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/INS.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "MAN_aisin_gioro_puyi",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/MAN.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "SIA_adul_aduldejajaras",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/SIA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "SIA_phraya_songsuradet",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/SIA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "SIA_rambai_barni",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/SIA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "characters",
+      "id": "SIA_rangsit_prayurasakdi",
+      "file": "common/characters/zzz_miyagipatch_1_19_compat_characters.txt",
+      "retained_files": [
+        "common/characters/SIA.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_controlled_zaibatsus",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_efficent_economy",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_focus_on_our_own_economy",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_influenced_economy",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_joint_civilian_investment_idea",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_smash_the_imperialists_idea",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_we_sent_our_technicians_infantry",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_we_sent_our_technicians_planes",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_we_sent_our_technicians_tanks",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "JAP_zaibatsus_subsidies",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "jap_r56_hokushin_ron",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/JAP_r56rp.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_a_sense_of_place",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_a_sense_of_place_upgraded",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_australian_culture_investments_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_australian_war_cabinet_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_australian_war_cabinet_war_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_british_military_construction_aid_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_communist_ideals",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_country_party_influence_alp",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_country_party_influence_uap",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_defying_american_interference_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_faction_training_initiative_idea_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_faction_training_initiative_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_invasion_planning",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_singapore_strategy_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_temp_political_power_factor_cost",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "ast_support_for_comrades_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "ast_support_for_comrades_idea_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_election_campaign_pp_cost_hidden_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_bradford_cotton_mills_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_bradford_cotton_mills_improved_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_broken_hill_proprietary_company_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_broken_hill_proprietary_company_improved_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_mount_isa_mines_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_mount_isa_mines_improved_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_whyalla_steelworks_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "AST_whyalla_steelworks_improved_ic",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/australia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_avia_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_benees_mraz",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_benees_mraz_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_letov_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_zlin_aircraft",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_zlin_aircraft_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_legacy_of_the_czechoslovak_legion_army_spirit",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_adminstrative_chaos",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_agrarian_politics_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_agrarian_politics_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_agrarian_politics_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_agrarian_reform",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_an_industrial_legacy_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_anti_democratic_propaganda_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_anti_rearmament_propaganda_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_aristocratic_support_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_aristocratic_support_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_army_readiness_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_army_readiness_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_army_readiness_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_army_readiness_4",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_army_readiness_5",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_broken_shield",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_car_and_oil_rationing_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_central_european_faction_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_coalition_building_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_continue_industrial_relocation_schemes_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_czech_state_mines",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_lar",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_lar_air_first",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_lar_final",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_lar_land_first",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_lar_third",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_no_lar",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_no_lar_air_first",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_no_lar_final",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_no_lar_land_first",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_department_2_idea_no_lar_third",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_destroy_the_fascist_threats_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_devaluate_the_koruna_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_directorate_of_fortification_works_gd_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_double_tracking_efforts",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_elevate_the_vsv_idea_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_elevate_the_vsv_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_elevate_the_vsv_idea_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_elevate_the_vsv_idea_4",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_elevate_the_vsv_idea_5",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_emergency_measures_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_exiles_idea_ENG",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_exiles_idea_FRA",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_exiles_idea_POL",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_exiles_idea_SOV",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_federalization_agreement_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_federalization_agreement_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_federalization_agreement_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_forgive_trading_debts_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_giant_of_central_europe_industry_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_guardian_of_central_europe_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_heighten_resistance",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_heighten_resistance_lar",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_industrialists_veto",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_industrialists_veto_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_influx_of_industrial_funds",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_integration_efforts",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_kickstart_rapid_rearmanent_aat_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_kickstart_rapid_rearmanent_no_aat_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_legacy_of_the_czechoslovak_legion_army",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_machine_tools",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_merged_consumer_good_plants",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_military_aeronautical_institute_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_military_aeronautical_institute_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_mobilize_the_reserves_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_national_defense_act_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_nationalized_key_industries",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_only_the_best_is_good_enough_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_peace_on_our_time_central_european_faction_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_peace_on_our_time_from_guardian_of_central_europe_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_powerhouse_of_europe_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_pro_rearmament_propaganda_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_railway_station_construction_effort",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_redirected_fortification_council_funds",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_revive_the_december_bloc",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_rural_education_efforts",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_skoda_weapons_buyer_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_sokolov_raid_pfot_critical_success_ns",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_sokolov_raid_pfot_limited_success_ns",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_sokolov_raid_pfot_success_ns",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_standing_against_the_storm_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_state_sponsored_recruitment_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_state_sponsored_recruitment_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_strike_at_the_heart_of_bolshevism_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_sudeten_challenge",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_sudeten_facde",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_sudeten_german_quandary",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_the_broad_coalition_idea_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_the_broad_coalition_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_the_broad_coalition_idea_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_the_broad_coalition_idea_4",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_the_freeway_project",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_the_lions_roar_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_unify_the_fascist_parties_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vitkovice_mining_and_metallurgical_company",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vitkovice_mining_and_metallurgical_company_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vitkovice_mining_and_metallurgical_company_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vitkovice_mining_and_metallurgical_company_4",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vtlu_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vtlu_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vtlu_idea_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_vtlu_idea_4",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_widespread_nationalization",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_widespread_protests",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_apollo",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_apollo_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_elektra",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_elektra_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_national_bank_of_czechoslovakia",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_national_bank_of_czechoslovakia_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_skoda_works_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_skoda_works_2_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_CKD_plzen",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_CKD_plzen_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_praga",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_praga_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_skoda_artillery",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_skoda_artillery_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_ckd_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_skoda_armor_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_tatra_improved",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_directorate_of_fortification_works_no_gd_idea",
+      "file": "common/ideas/zzz_miyagipatch_batch12_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_directorate_of_fortification_works_no_gd_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_batch12_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_directorate_of_fortification_works_gd_idea_2",
+      "file": "common/ideas/zzz_miyagipatch_batch12_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "CZE_skoda_no_focus_optimization_0_idea",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/czechoslovakia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "INS_JAP_repaying_industrialists",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "INS_anti_colonialist_sentiment_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "INS_economic_transition_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "INS_emergency_dockyard_construction_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "INS_no_compromise_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "INS_plane_making",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "INS_revolutionaries_working_with_indonesians_idea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_INS_prioritizing_dutch_profits",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_INS_hidden_debt_timer",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/indonesia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAL_ketuanan_melayu",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/malaysia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAL_ketuanan_melayu_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/malaysia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAL_ketuanan_melayu_3",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/malaysia.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_battle_for_china",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_beiyang_army",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_beiyang_army_2",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_finish_off_japan",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_illegitimate_government",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_korean_liberation_army",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_korean_liberation_army_no_korea",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_mobilization",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_peoples_army",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_peoples_liberation_army",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_rising_republican_sentiments",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_rival_government",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_southern_expedition",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_strengthen_army",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_strong_army",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_the_communist_party_triumphant",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_the_legitimate_successor",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_the_revolution_triumphant",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_xingan_army_appeased",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_xingan_army_resigned",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_mangyo",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_communist_cells",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_infiltrated_communications_network",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_kwantung_veto_2",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_low_legitimacy_52",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "MAN_the_hsinking_plan",
+      "file": "common/ideas/zzz_miyagipatch_r56_orphan_ideas.txt",
+      "retained_files": [
+        "common/ideas/manchuko.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_HOL_prioritizing_dutch_profits",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/netherlands.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "HOL_internationally_controversial_aggression",
+      "file": "common/ideas/zzz_miyagipatch_batch10_ideas.txt",
+      "retained_files": [
+        "common/ideas/netherlands.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_bloodlusted_irredentism",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_civilian_full_support",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_civilian_neutral",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_civilian_opposition",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_civilian_rebellious",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_civilian_slight_support",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_death_defiant",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_japan_repaying_debts_JAP",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_military_full_support",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_military_humiliation",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_military_neutral",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_military_opposition",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_military_rebellious",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_military_slight_support",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_purged_senior_military",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_rebuilding_after_civil_war",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_short_war_temp_buff",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_short_war_temp_debuff",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_songsuradet_ascendant_0",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_songsuradet_ascendant_1",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_the_military_oversight_bureau",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "ideas",
+      "id": "idea_SIA_war_fervor",
+      "file": "common/ideas/zzz_miyagipatch_1_19_compat_ideas.txt",
+      "retained_files": [
+        "common/ideas/siam.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_denim_factory",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_denim_factory_upgraded",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_mount_isa",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_mount_isa_upgraded",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_steelworks_and_shipyard",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_steelworks_and_shipyard_upgraded",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_the_big_australian",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "AST_the_big_australian_upgraded",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "CHI_taoist_devotee_trait",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "CZE_3rd_prezident",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "CZE_reluctant_prime_minister",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "CZE_spirit_of_zizka",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "INS_inefficient_government",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "KHM_emir_of_khotan",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "agrarian_old_guard",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "de_facto_leader",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "desert_motor_transport_company",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "fast_tank_manufacturer_2",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "helicopter_equipment_manufacturer",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "industrial_focused_central_bank",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "infantry_tank_manufacturer_2",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "light_aircraft_manufacturer_3",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "steady_statesman",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "traits",
+      "id": "train_equipment_manufacturer",
+      "file": "common/country_leader/zzz_miyagipatch_1_19_compat_traits.txt",
+      "retained_files": [
+        "common/country_leader/r56_traits.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_american_car_and_foundry_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_cockatoo_docks_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_commonwealth_aircraft_corporation_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_evan_deakin_and_company_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_ford_australia_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_gloster_aircraft_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_holden_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_lithgow_arms_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_lockheed_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_new_south_wales_government_railways_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_nuffield_mechanizations_and_aero_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_vulcan_foundry_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_curtiss-wright_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_hyphen_mios.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "AST_vickers-ruwolt_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_hyphen_mios.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/AST_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "CZE_CKD_plzen_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/CZE_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "CZE_benees_mraz_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/CZE_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "CZE_ceska_zbrojovka_uhersky_brod_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/CZE_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "CZE_praga_aviation_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/CZE_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "CZE_ringhoffer_tatra_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/CZE_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "CZE_skoda_plzen_tank_destroyer_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/CZE_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "CZE_zlin_aircraft_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/CZE_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "INS_artillerie_inrichtingen_pyrotechnische_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/INS_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "organizations",
+      "id": "INS_bio_pharma_organization",
+      "file": "common/military_industrial_organization/organizations/zzz_miyagipatch_1_19_compat_organizations.txt",
+      "retained_files": [
+        "common/military_industrial_organization/organizations/INS_organization.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "equipment",
+      "id": "escort_carrier",
+      "file": "common/units/equipment/zzz_miyagipatch_1_19_escort_carrier.txt",
+      "retained_files": [
+        "common/units/equipment/ship_hull_carrier.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "dynamic_modifiers",
+      "id": "KMT_combined_democracy_modifier",
+      "file": "common/dynamic_modifiers/zzz_miyagipatch_batch10_dynamic_modifiers.txt",
+      "retained_files": [
+        "common/dynamic_modifiers/r56_dynamic_modifiers.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "dynamic_modifiers",
+      "id": "MAN_the_hope_of_seperatism",
+      "file": "common/dynamic_modifiers/zzz_miyagipatch_batch10_dynamic_modifiers.txt",
+      "retained_files": [
+        "common/dynamic_modifiers/r56_dynamic_modifiers.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "modifiers",
+      "id": "CZE_i_am_agreeable_to_license",
+      "file": "common/modifiers/zzz_miyagipatch_1_19_compat_static_modifiers.txt",
+      "retained_files": [
+        "common/modifiers/r56_static_modifiers.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "modifiers",
+      "id": "CZE_usurp_the_mantle",
+      "file": "common/modifiers/zzz_miyagipatch_1_19_compat_static_modifiers.txt",
+      "retained_files": [
+        "common/modifiers/r56_static_modifiers.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "subdoctrines",
+      "id": "r56_shocktroops_assault",
+      "file": "common/doctrines/subdoctrines/special_forces/zzz_miyagipatch_1_19_shocktroops_subdoctrines.txt",
+      "retained_files": [
+        "common/doctrines/subdoctrines/special_forces/r56_shocktroops_subdoctrines.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "subdoctrines",
+      "id": "r56_shocktroops_breakthrough",
+      "file": "common/doctrines/subdoctrines/special_forces/zzz_miyagipatch_1_19_shocktroops_subdoctrines.txt",
+      "retained_files": [
+        "common/doctrines/subdoctrines/special_forces/r56_shocktroops_subdoctrines.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_the_jewel_in_the_crown",
+      "file": "common/national_focus/000_miyagipatch_joint_focus_anchor.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_underground_revolution",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_instigate_chaos_sulawesi",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_instigate_chaos_medan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_the_declaration_of_independence",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_laskar_rakjat",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_political_stabilization",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_just_a_fisherman",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_guided_democracy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_purge_oppurtunists",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_musso_ascends",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_the_bangka_project",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_aluminium_factory",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_bauxite_export",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_realign_supply_chains",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_invite_foreign_companies",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_all_in_on_rubber",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_first_come_first_serve",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_increased_trade_with_japan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_prioritize_dutch_companies",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_governor_general_tjarda",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_defenders_of_homeland",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "INS_seize_oppurtunity",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/indonesia_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_r56rp_the_rice_rebellion",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/japan.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_r56rp_slay_the_sun",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/japan.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "AUS_past_glories",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_60_divisions_plan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_a_final_warning",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_abandon_china",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_army_reform",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_bureau_of_investigation_and_statistics",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_financial_policy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_forced_loans",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_foreign_threats",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_inter_party_coordination_council",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_legislative_yuan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_march_on_nanjing",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_march_on_the_cliques",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_prioritize_the_interior",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_scorched_earth_tactics",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_subjugate_the_warlords",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_unbridled_capitalism",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CZE_access_to_the_sea",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CZE_go_right",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "EGY_rightful_sucessor_to_the_empire",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_aircraft_manufacturer_nationalisation",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_anti_fascist_coalition",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_armee_de_la_air",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_armee_de_terre",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_de_gaulle_strategy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_extend_the_maginot_line",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_form_the_popular_front",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_giraud_plan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_invite_communist_ministers",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_national_regeneration",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_nationalize_key_aircraft_industries",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_revive_the_national_bloc",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "FRA_utilize_the_leagues",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "GER_integrate_czech_manufacturers",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "GRL_prospecting_new_sites",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "HOL_taog_guarantee_colonial_loyalty",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_formosa_forward_operating_base",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_intervene_in_china",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_japanese_settlement",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_manchu_oil",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_non_aggression_pact_with_the_soviet_union",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_prepare_for_war_with_the_soviet_union",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_purge_the_kodoha_faction",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_strike_south_doctrine",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_support_the_indian_independence_league",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "KHM_shizangs_coup",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "KMT_befriend_tibet",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "KMT_wang_jingweis_rise",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_a_tale_of_two_emperors_2",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_assert_our_authority_2",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_back_to_the_basics_2",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_depose_the_weak_monarch_2",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_embrace_the_status_quo",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_nationalize_the_industries",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_offer_vassalization_2",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_support_workers_rights",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_the_kwantung_connection_2",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "MAN_the_qing_restoration",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "POL_nationalist_constitution",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_military_intelligence_department",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_provoke_japan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_socialist_market_economy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "ROM_balkans_dominance",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SOV_request_imperial_protection",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "USA_democratic_socialism",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "alb_ita_treaty",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "liberty_ethos",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "r56rp_KMT_nra_1939_offensive",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "uk_empire_focus",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_chemical_research_institute",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_constitutional_reform",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_control_yuan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_democracy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_examination_yuan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_executive_yuan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_expand_the_academica_sinica",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_free_hospitals",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_judicial_yuan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_land_tax_reform",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_military_affairs_commission",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_nationalism",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_new_life_movement",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_price_controls",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_reform_the_national_bank",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_refugee_relief_agency",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_republicanism",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_rural_schooling",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_three_principles_of_the_people",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_unemployment_assistance",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_unified_industrial_planning",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_welfare",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CZE_air_is_our_sea",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "HOL_obtain_foreign_colonial_investments_taog",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "HOL_the_western_possessions_taog",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "IRQ_ensure_sunni_dominance",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "IRQ_suppress_tribal_revolts",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_anti_communist_volunteers",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_build_up_the_manchurian_army",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_communist_volunteers",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_create_a_manchurian_imperial_air_force",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_establish_the_northern_resource_area",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_non_aggression_pact_with_china",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_preemptive_war",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_reeducation_campaign",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "JAP_technological_exchange",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "KHM_expand_the_madrasas",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIK_settle_dzungarian_tribes",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "XSM_recruit_salar_officers",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "YUN_a_land_of_mountains",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "YUN_eduational_reforms",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "YUN_expand_local_infrastructure",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "YUN_political_reforms",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "YUN_rally_around_long_yun",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "YUN_strive_for_self_sufficiency",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "YUN_the_democratic_fortress",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "army_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "equipment_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "motorization_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "aviation_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "naval_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "flexible_navy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "large_navy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "industrial_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "construction_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "production_effort",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "CHI_rural_reconstruction_movement",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_strengthen_the_central_secretariat",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_land_redistribution",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_enforce_the_three_rules",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_agrarian_socialism",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_the_yanan_base_area",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_focus_on_china",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_revolutionary_military_commission",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_literacy_programs",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_ban_the_opium_trade",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_prepare_for_war_with_japan",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "PRC_mobile_warfare",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/r56rp_dummy_tree.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_khana_ratsadon",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_support_songsuradets_military_clique",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_royal_police_counterweight",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_war_fervor",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_kings_gambit",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_to_forge_a_king",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_provincial_council_of_state",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_regency_of_boworadet",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_regency_of_songsuradet",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_regency_of_rangsit",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_and_spring_the_trap",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_achieve_foreign_legitimacy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_asian_democratic_compact",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_southeast_asia_joint_command",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_pan_asian_weapon_standardization",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_united_against_aggression",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_hammers_that_strike",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_the_songsuradet_rebellion",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_retake_lost_british_states",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_recover_indochina",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_thai_rice_company",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_national_savings_bond",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_chemical_imports",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_diversity_foreign_reserves",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_contingency_funds",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_use_ships_as_generators",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_plan_for_a_short_war",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_reluctant_submission",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_seri_thai",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_american_investment_aid",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_thai_students_in_the_oss",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_prepare_to_drop",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_pacific_war",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_standing_our_ground",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_direct_army_fundings_towards_the_navy",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_definition",
+      "category": "focuses",
+      "id": "SIA_sell_bangkok_dock_co",
+      "file": "common/national_focus/zzz_miyagipatch_1_19_focus_validation_stubs.txt",
+      "retained_files": [
+        "common/national_focus/siam_taog.txt"
+      ]
+    },
+    {
+      "kind": "duplicate_polish_technology",
+      "id": "POL_artillery_training_focus",
+      "file": "common/technologies/infantry_extra_tech.txt",
+      "retained_file": "common/technologies/r56_country_techs.txt"
+    },
+    {
+      "kind": "duplicate_polish_technology",
+      "id": "POL_armor_training_focus",
+      "file": "common/technologies/infantry_extra_tech.txt",
+      "retained_file": "common/technologies/r56_country_techs.txt"
+    },
+    {
+      "kind": "duplicate_polish_technology",
+      "id": "POL_engineers_special_forces_training_focus",
+      "file": "common/technologies/infantry_extra_tech.txt",
+      "retained_file": "common/technologies/r56_country_techs.txt"
+    },
+    {
+      "kind": "early_real_joint_focus_tree",
+      "file": "common/national_focus/000_indonesia_taog_119.txt"
+    },
+    {
+      "kind": "zero_division_guard",
+      "file": "common/on_actions/pd_on_action.txt"
+    },
+    {
+      "kind": "restored_referenced_technologies",
+      "ids": [
+        "concentrated_industry_a",
+        "concentrated_industry_b",
+        "concentrated_industry_c",
+        "concentrated_industry_d",
+        "dispersed_industry_a",
+        "dispersed_industry_b",
+        "dispersed_industry_c",
+        "dispersed_industry_d",
+        "jungle_tanks",
+        "mountaineers_a",
+        "mountaineers_b",
+        "mountaineers_c",
+        "the_thunder_at_our_gates_artillery"
+      ]
+    },
+    {
+      "kind": "removed_paths_to_absent_rp_techs",
+      "file": "common/technologies/infantry.txt",
+      "count": 1
+    },
+    {
+      "kind": "removed_paths_to_absent_rp_techs",
+      "file": "common/technologies/bba_air_techs.txt",
+      "count": 2
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/TWR_modifiericons_l_english.yml",
+      "key": "KRA_Koysginomics_Copy_Foreign_Research_tt"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/r56rp_countries_cosmetic_l_english.yml",
+      "key": "GER_ZIM_IMP_ADJ"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/r56_china_and_co_l_english.yml",
+      "key": "KMT_align_with_moscow_desc"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/r56_china_and_co_l_english.yml",
+      "key": "KMT_prepare_national_liberation_desc"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/r56_china_and_co_l_english.yml",
+      "key": "CHI_transfer_factories_to_the_proletariat_desc"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/r56_china_and_co_l_english.yml",
+      "key": "CHI_a_bulwark_of_defense_desc"
+    },
+    {
+      "kind": "language_header",
+      "file": "localisation/english/KBK_l_english.yml"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/INS_l_english.yml",
+      "key": "RULE_OPTION_FASCIST_INS_AI_DESC"
+    },
+    {
+      "kind": "language_header",
+      "file": "localisation/english/r56_companies_traits_l_english.yml"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/r56rp_formables_interface_l_english.yml",
+      "key": "formable_nations_amazonia_category_desc"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/research_l_english.yml",
+      "key": "radio_detection_sp_2_tt"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/english/r56rp_tools_l_english.yml",
+      "key": "WHITEPEACE"
+    },
+    {
+      "kind": "localization_quote",
+      "file": "localisation/spanish/r56_startup_l_spanish.yml",
+      "key": "r56.startup.event.01.description"
+    },
+    {
+      "kind": "language_header",
+      "file": "localisation/english/replace/r56e_equip_artillery_l_english.yml"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 12524,
+      "from_state": 760,
+      "to_state": 617,
+      "source_value": "1",
+      "correct_state_already_had_point": false,
+      "retained_value": "1"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 2023,
+      "from_state": 493,
+      "to_state": 1051,
+      "source_value": "1",
+      "correct_state_already_had_point": true,
+      "retained_value": "1"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 10960,
+      "from_state": 1052,
+      "to_state": 1072,
+      "source_value": "1",
+      "correct_state_already_had_point": false,
+      "retained_value": "1"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 5179,
+      "from_state": 1077,
+      "to_state": 302,
+      "source_value": "1",
+      "correct_state_already_had_point": true,
+      "retained_value": "1"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 9975,
+      "from_state": 429,
+      "to_state": 428,
+      "source_value": "10",
+      "correct_state_already_had_point": false,
+      "retained_value": "10"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 12240,
+      "from_state": 737,
+      "to_state": 1096,
+      "source_value": "1",
+      "correct_state_already_had_point": true,
+      "retained_value": "1"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 5216,
+      "from_state": 495,
+      "to_state": 1072,
+      "source_value": "1",
+      "correct_state_already_had_point": false,
+      "retained_value": "1"
+    },
+    {
+      "kind": "victory_point_state",
+      "province": 12338,
+      "from_state": 431,
+      "to_state": 1092,
+      "source_value": "3",
+      "correct_state_already_had_point": true,
+      "retained_value": "1"
+    }
+  ],
+  "runtime_tested": false
+}

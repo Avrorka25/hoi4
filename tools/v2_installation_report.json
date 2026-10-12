@@ -1,0 +1,8 @@
+{
+  "package_version": "1.19-v2fix.1",
+  "files_checked": 32103,
+  "patch_over_original_equals_full_by_sha256": true,
+  "external_and_internal_descriptors_checked": true,
+  "no_game_executable_or_crash_files": true,
+  "runtime_tested": false
+}

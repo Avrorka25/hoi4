@@ -1,0 +1,78 @@
+{
+  "no_original_definition_ids_lost": true,
+  "source_map_buildings_unchanged": true,
+  "zero_division_guard_present": true,
+  "categories": {
+    "technologies": {
+      "ids_before": 943,
+      "ids_after": 956,
+      "lost_ids": [],
+      "duplicate_ids_before": 25,
+      "duplicate_ids_after": 0
+    },
+    "characters": {
+      "ids_before": 7641,
+      "ids_after": 7641,
+      "lost_ids": [],
+      "duplicate_ids_before": 52,
+      "duplicate_ids_after": 0
+    },
+    "ideas": {
+      "ids_before": 9970,
+      "ids_after": 9970,
+      "lost_ids": [],
+      "duplicate_ids_before": 231,
+      "duplicate_ids_after": 0
+    },
+    "traits": {
+      "ids_before": 2800,
+      "ids_after": 2800,
+      "lost_ids": [],
+      "duplicate_ids_before": 34,
+      "duplicate_ids_after": 10
+    },
+    "organizations": {
+      "ids_before": 788,
+      "ids_after": 788,
+      "lost_ids": [],
+      "duplicate_ids_before": 23,
+      "duplicate_ids_after": 0
+    },
+    "equipment": {
+      "ids_before": 393,
+      "ids_after": 393,
+      "lost_ids": [],
+      "duplicate_ids_before": 1,
+      "duplicate_ids_after": 0
+    },
+    "dynamic_modifiers": {
+      "ids_before": 365,
+      "ids_after": 365,
+      "lost_ids": [],
+      "duplicate_ids_before": 2,
+      "duplicate_ids_after": 0
+    },
+    "modifiers": {
+      "ids_before": 130,
+      "ids_after": 130,
+      "lost_ids": [],
+      "duplicate_ids_before": 2,
+      "duplicate_ids_after": 0
+    },
+    "subdoctrines": {
+      "ids_before": 88,
+      "ids_after": 88,
+      "lost_ids": [],
+      "duplicate_ids_before": 2,
+      "duplicate_ids_after": 0
+    },
+    "focuses": {
+      "ids_before": 20894,
+      "ids_after": 20894,
+      "lost_ids": [],
+      "duplicate_ids_before": 198,
+      "duplicate_ids_after": 0
+    }
+  },
+  "runtime_tested": false
+}

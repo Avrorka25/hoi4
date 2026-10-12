@@ -2,3 +2,4 @@ The_Road_to_56.zip filter=lfs diff=lfs merge=lfs -text
 Road_to_56_RUS.zip filter=lfs diff=lfs merge=lfs -text
 Road_to_56_RP_fixed.zip filter=lfs diff=lfs merge=lfs -text
 mod.zip filter=lfs diff=lfs merge=lfs -text
+RT56RP_v2_HOI4_1.19.zip filter=lfs diff=lfs merge=lfs -text
