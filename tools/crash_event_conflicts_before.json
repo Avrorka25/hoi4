@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bftb_bulgaria_rearmament.1",
+    "declarations": [
+      {
+        "file": "events/BFTB_Bulgaria.txt",
+        "line": 2973,
+        "addon": false
+      },
+      {
+        "file": "events/000_rt56rp_override_BFTB_Bulgaria.txt",
+        "line": 5,
+        "addon": true
+      }
+    ]
+  },
+  {
+    "id": "bftb_bulgaria_rearmament.7",
+    "declarations": [
+      {
+        "file": "events/BFTB_Bulgaria.txt",
+        "line": 3214,
+        "addon": false
+      },
+      {
+        "file": "events/000_rt56rp_override_BFTB_Bulgaria.txt",
+        "line": 179,
+        "addon": true
+      }
+    ]
+  },
+  {
+    "id": "israel.1000",
+    "declarations": [
+      {
+        "file": "events/israel.txt",
+        "line": 4483,
+        "addon": false
+      },
+      {
+        "file": "events/AAA_rt56rp_se_eventoverrides.txt",
+        "line": 490,
+        "addon": true
+      }
+    ]
+  },
+  {
+    "id": "nsb_news.9",
+    "declarations": [
+      {
+        "file": "events/NSB_NewsEvents.txt",
+        "line": 424,
+        "addon": false
+      },
+      {
+        "file": "events/AAA_rt56rp_se_eventoverrides.txt",
+        "line": 3,
+        "addon": true
+      }
+    ]
+  }
+]
