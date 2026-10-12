@@ -245,7 +245,7 @@ def validate(root: Path, base: Path | None = None) -> dict:
             errors.append("Descriptor does not target HOI4 1.19")
         if '"The Road to 56 [Beta]"' in text:
             errors.append("Descriptor declares simultaneous stable and beta dependencies")
-    warnings.append("Game runtime, actual installed RT56 version, DLC and saved games are untested.")
+    warnings.append("Game runtime, base-game files, DLC, saved games and the installed mod load order are untested.")
     if not lua:
         warnings.append("Lua compiler unavailable: Lua syntax was not checked.")
     return {"static_checks_passed": not errors, "counts": dict(counts), "errors": errors, "limitations": warnings}

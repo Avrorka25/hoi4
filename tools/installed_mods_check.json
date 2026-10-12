@@ -1,0 +1,21 @@
+{
+  "supplied_repository_commit": "ba4c22b08dbba792599416733d95c2a51eea739c",
+  "files_commit_message": "roadto56orig",
+  "archives": {
+    "The_Road_to_56.zip": {
+      "sha256": "523e47a1210ce4272da7182b61ec4308f4a76a851bebd0e420fe92a61aa93ce3",
+      "size_bytes": 562409406
+    },
+    "Road_to_56_RUS.zip": {
+      "sha256": "5c25c97b4fd928ed69b6d844672b60147ceb44b40f6fa56f513133e579341a2c",
+      "size_bytes": 5472045,
+      "scripts_present": false
+    }
+  },
+  "country": "GER",
+  "german_addon_focuses_checked": 909,
+  "addon_focus_graph_missing_references_or_duplicate_ids": 0,
+  "crash_persists_after_rufix_2": true,
+  "runtime_crash_cause_identified": false,
+  "diagnostic_next_step": "Collect game.log from a marked startup on the user computer."
+}

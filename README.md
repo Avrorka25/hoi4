@@ -5,6 +5,13 @@
 **Обновление 1.19-rufix.2:** по присланному краш-логу убраны 18 конфликтующих
 объявлений событий. Русский перевод сохранён. [Разбор краша и ограничения](CRASH_ANALYSIS_RU.md).
 
+**Краш при новой партии за Германию сохранился после rufix.2.** Проверены
+загруженные пользователем основной RT56 и русификатор. Для следующего теста
+подготовлен [диагностический патч](https://github.com/Avrorka25/hoi4/raw/refs/heads/main/Road_to_56_RP_diagnostic.zip),
+который добавляет отметки в game.log. Это диагностика, а не подтверждённое
+исправление вылета. [Инструкция и путь к game.log](DIAGNOSTIC_RU.md).
+[Отмена диагностических изменений](https://github.com/Avrorka25/hoi4/raw/refs/heads/main/Road_to_56_RP_diagnostic_rollback.zip).
+
 - [Полный исправленный мод](https://github.com/Avrorka25/hoi4/blob/main/Road_to_56_RP_fixed.zip) — 132 МБ.
 - [Небольшой пакет исправлений](https://github.com/Avrorka25/hoi4/blob/main/Road_to_56_RP_patch.zip) — требует файлы оригинального дополнения или первого пакета.
 - [Подробная инструкция](README_RU.md).
