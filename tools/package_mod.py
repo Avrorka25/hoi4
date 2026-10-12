@@ -71,7 +71,7 @@ def main():
                 for name in ['Road_to_56_RP.mod', 'README_RU.md', 'CRASH_ANALYSIS_RU.md', 'REPORT.json']:
                     archive.write(package / name, name)
                 archive.writestr('README_PATCH_RU.md',
-                    f'Патч {version} накладывается на исходный мод, rufix.1 или rufix.2.\n'
+                    f'Патч {version} накладывается на исходный мод или rufix.1–rufix.3.\n'
                     'Также заменяются файлы диагностического пакета исходными рабочими скриптами.\n'
                     'Если мод ещё не установлен, сначала скопируйте все исходные файлы в\n'
                     'Documents/Paradox Interactive/Hearts of Iron IV/mod/Road_to_56_RP.\n'

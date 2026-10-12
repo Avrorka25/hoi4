@@ -11,7 +11,7 @@ import re
 import struct
 from pathlib import Path
 
-from map_buildings import check_ports
+from map_buildings import check_ports, check_state_sites
 
 REFERENCES = re.compile(r'\[[^\]\n]*\]|\$[A-Za-z_?][^$\n]*\$|£[A-Za-z_][A-Za-z_0-9]*(?:£|\|\d+)?')
 ENTRY = re.compile(r'^\s*([^\s:#]+):\d*\s*"(.*)"\s*(?:#.*)?$')
@@ -250,6 +250,10 @@ def validate(root: Path, base: Path | None = None) -> dict:
                 errors.append(f'map/buildings.txt: {problem}')
             for note in port_report['warnings']:
                 warnings.append(f'map/buildings.txt: {note}')
+            site_report = check_state_sites(root, base)
+            counts['state_building_sites_checked_with_reference_base'] = site_report['state_sites_checked']
+            for problem in site_report['errors']:
+                errors.append(f'map/buildings.txt: {problem}')
     descriptor = root / "descriptor.mod"
     if not descriptor.is_file():
         errors.append("Missing internal descriptor.mod")

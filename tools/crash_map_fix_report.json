@@ -1,5 +1,5 @@
 {
-  "package_version": "1.19-rufix.3",
+  "package_version": "1.19-rufix.4",
   "runtime_crash_confirmed_fixed": false,
   "diagnosis": "Province 13532 naval spawn declared in obsolete state 978; current map assigns it to state 909. CControllerArea dereferences a null province lookup (ID 0).",
   "native_analysis": {
@@ -71,12 +71,106 @@
   },
   "all_naval_spawn_records_identical_to_supplied_base": true,
   "extra_state_preserved": 1144,
-  "extra_state_building_points_reassigned": 18,
+  "extra_state_building_points_reassigned": 12,
   "changed_mod_files_since_rufix_2": [
     "descriptor.mod",
     "map/buildings.txt"
   ],
   "russian_localisation_and_media_unchanged_since_rufix_2": true,
   "gameplay_code_and_country_focuses_unchanged_since_rufix_2": true,
-  "executable_and_raw_dump_included_in_package": false
+  "executable_and_raw_dump_included_in_package": false,
+  "source_state_building_points_repositioned": 6,
+  "extra_state_building_points_added": 25,
+  "state_site_validation_after": {
+    "static_checks_passed": true,
+    "states_checked": 1144,
+    "state_sites_checked": 11440,
+    "errors": []
+  },
+  "rufix3_state_sites_before": {
+    "static_checks_passed": false,
+    "states_checked": 1144,
+    "state_sites_checked": 11430,
+    "errors": [
+      {
+        "state": 495,
+        "building": "nuclear_reactor_spawn",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1072,
+        "building": "air_base",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1072,
+        "building": "rocket_site_spawn",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1072,
+        "building": "steel_mill",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1072,
+        "building": "rubber_refinery",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1144,
+        "building": "stronghold_network",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1144,
+        "building": "synthetic_refinery",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1144,
+        "building": "radar_station",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1144,
+        "building": "fuel_silo",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      },
+      {
+        "state": 1144,
+        "building": "aluminum_mill",
+        "count": 0,
+        "error": "Expected one RT56 building site per state"
+      }
+    ]
+  },
+  "latest_logs_review": {
+    "run_local_log_time": "2026-10-12 18:38:26–18:39:21",
+    "error_log_lines": 981,
+    "messages_identical_to_170124_after_excluding_timestamps": true,
+    "added_error_messages": 0,
+    "removed_error_messages": 0,
+    "game_log_last_stage": "Launching SINGLEPLAYER-game, 1936.1.1.12",
+    "diagnostic_markers_present": false,
+    "map_error_sources_present": false,
+    "rufix3_installation_confirmed": false,
+    "native_fault_site_available_for_this_run": false,
+    "runtime_crash_confirmed_fixed": false,
+    "next_evidence_needed": "Current-run crash archive to compare fault site and province ID; normal logs do not contain native access violation information."
+  },
+  "map_dialog_cause_confirmed_by_latest_logs": false,
+  "missing_site_checks_in_supplied_binary_rvas": {
+    "air_base": "0xc5a47e",
+    "rocket_site_spawn": "0xc5a671"
+  }
 }

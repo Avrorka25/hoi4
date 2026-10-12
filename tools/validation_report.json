@@ -12,7 +12,8 @@
     "country_tags": 17,
     "states_with_reference_base": 1144,
     "provinces_with_reference_base": 10381,
-    "naval_spawns_checked_with_reference_base": 2544
+    "naval_spawns_checked_with_reference_base": 2544,
+    "state_building_sites_checked_with_reference_base": 11440
   },
   "errors": [],
   "limitations": [
