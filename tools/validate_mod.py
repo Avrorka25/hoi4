@@ -11,6 +11,8 @@ import re
 import struct
 from pathlib import Path
 
+from map_buildings import check_ports
+
 REFERENCES = re.compile(r'\[[^\]\n]*\]|\$[A-Za-z_?][^$\n]*\$|£[A-Za-z_][A-Za-z_0-9]*(?:£|\|\d+)?')
 ENTRY = re.compile(r'^\s*([^\s:#]+):\d*\s*"(.*)"\s*(?:#.*)?$')
 
@@ -230,12 +232,24 @@ def validate(root: Path, base: Path | None = None) -> dict:
             errors.append(f"Non-contiguous state IDs with selected RT56 base: {missing}")
         definition = base / "map/definition.csv"
         if definition.exists():
-            province_ids = {line.split(";")[0] for line in definition.read_text(encoding="utf-8-sig").splitlines()}
+            definitions = [line.split(';') for line in definition.read_text(encoding='utf-8-sig').splitlines()
+                           if line and not line.lstrip().startswith('#')]
+            province_ids = {fields[0] for fields in definitions}
             for province in province_states:
                 if province not in province_ids:
                     errors.append(f"Unknown province in selected RT56 map: {province}")
+            for fields in definitions:
+                if fields[0] != '0' and fields[4] == 'land' and fields[0] not in province_states:
+                    errors.append(f'Land province {fields[0]} has no state in the selected map')
         counts["states_with_reference_base"] = len(states)
         counts["provinces_with_reference_base"] = len(province_states)
+        if (base / 'map/provinces.bmp').is_file() and (base / 'map/definition.csv').is_file():
+            port_report = check_ports(root, base)
+            counts['naval_spawns_checked_with_reference_base'] = port_report['naval_spawns_checked']
+            for problem in port_report['errors']:
+                errors.append(f'map/buildings.txt: {problem}')
+            for note in port_report['warnings']:
+                warnings.append(f'map/buildings.txt: {note}')
     descriptor = root / "descriptor.mod"
     if not descriptor.is_file():
         errors.append("Missing internal descriptor.mod")

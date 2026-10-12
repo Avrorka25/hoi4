@@ -134,6 +134,24 @@ def inspect(path, image_path=None):
     first = dump.pointer(dump.registers['r15'])
     if first:
         result['objects']['current_loop_item'] = dump.rtti(first)
+    # Field offsets are confirmed from the supplied 1.19.3 c01a binary at this
+    # fault site. Do not interpret them as a general layout for other builds.
+    if (image_path and result['fault_rva'] == '0xcf2c40'
+            and (result['objects']['r14'] or {}).get('type') == '.?AVCControllerArea@@'
+            and (result['objects'].get('current_loop_item') or {}).get('type') == '.?AVCProvince@@'):
+        definition = dump.pointer(first + 0xb8)
+        fields = [dump.read(first + 0xa4, 4), dump.read(definition + 0xc4, 8) if definition else None,
+                  dump.read(dump.registers['rcx'] + 0x2b4, 4)]
+        if all(fields):
+            province = struct.unpack('<I', fields[0])[0]
+            definition_id, linked_province = struct.unpack('<II', fields[1])
+            if province == definition_id:
+                result['province_link'] = {
+                    'province_id': province, 'definition_province_id': definition_id,
+                    'lookup_province_id': linked_province,
+                    'lookup_database_size': struct.unpack('<I', fields[2])[0],
+                    'layout_basis': '1.19.3 c01a CControllerArea fault site and CProvince data',
+                }
     return result
 
 

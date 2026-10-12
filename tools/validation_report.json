@@ -1,7 +1,7 @@
 {
   "static_checks_passed": true,
   "counts": {
-    "event_declarations_with_reference_base": 10408,
+    "event_declarations_with_reference_base": 10368,
     "utf8_text_files": 258,
     "clausewitz_files": 255,
     "dds_headers": 1562,
@@ -11,10 +11,14 @@
     "russian_entries": 14664,
     "country_tags": 17,
     "states_with_reference_base": 1144,
-    "provinces_with_reference_base": 10381
+    "provinces_with_reference_base": 10381,
+    "naval_spawns_checked_with_reference_base": 2544
   },
   "errors": [],
   "limitations": [
-    "Game runtime, actual installed RT56 version, DLC and saved games are untested."
+    "map/buildings.txt: {'province': 4206, 'note': '2 naval spawns project to the same sampled province'}",
+    "map/buildings.txt: {'province': 7683, 'note': '2 naval spawns project to the same sampled province'}",
+    "map/buildings.txt: {'province': 12147, 'note': '2 naval spawns project to the same sampled province'}",
+    "Game runtime, base-game files, DLC, saved games and the installed mod load order are untested."
   ]
 }

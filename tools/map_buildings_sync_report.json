@@ -1,0 +1,155 @@
+{
+  "source": "User-supplied The Road to 56 map/buildings.txt",
+  "extra_states": [
+    1144
+  ],
+  "relocated_building_points": [
+    {
+      "line": 65790,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "air_base"
+    },
+    {
+      "line": 65793,
+      "province": 5008,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 65801,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 65804,
+      "province": 13393,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 65806,
+      "province": 13393,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 65807,
+      "province": 5008,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 65808,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 65822,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "anti_air_building"
+    },
+    {
+      "line": 65826,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "steel_mill"
+    },
+    {
+      "line": 65828,
+      "province": 5008,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "rubber_refinery"
+    },
+    {
+      "line": 65831,
+      "province": 13339,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    },
+    {
+      "line": 65839,
+      "province": 5008,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    },
+    {
+      "line": 65843,
+      "province": 13393,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    },
+    {
+      "line": 65844,
+      "province": 13393,
+      "from_state": 1072,
+      "to_state": 1144,
+      "building": "rocket_site_spawn"
+    },
+    {
+      "line": 70605,
+      "province": 5214,
+      "from_state": 495,
+      "to_state": 1144,
+      "building": "supply_node"
+    },
+    {
+      "line": 70659,
+      "province": 5214,
+      "from_state": 495,
+      "to_state": 1144,
+      "building": "bunker"
+    },
+    {
+      "line": 70707,
+      "province": 5214,
+      "from_state": 495,
+      "to_state": 1144,
+      "building": "nuclear_reactor_spawn"
+    },
+    {
+      "line": 70712,
+      "province": 5214,
+      "from_state": 495,
+      "to_state": 1144,
+      "building": "special_project_facility_spawn"
+    }
+  ],
+  "building_records": 71863,
+  "port_validation": {
+    "static_checks_passed": true,
+    "naval_spawns_checked": 2544,
+    "distinct_spawn_provinces": 2541,
+    "errors": [],
+    "warnings": [
+      {
+        "province": 4206,
+        "note": "2 naval spawns project to the same sampled province"
+      },
+      {
+        "province": 7683,
+        "note": "2 naval spawns project to the same sampled province"
+      },
+      {
+        "province": 12147,
+        "note": "2 naval spawns project to the same sampled province"
+      }
+    ]
+  }
+}

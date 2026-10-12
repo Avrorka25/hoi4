@@ -1,0 +1,82 @@
+{
+  "package_version": "1.19-rufix.3",
+  "runtime_crash_confirmed_fixed": false,
+  "diagnosis": "Province 13532 naval spawn declared in obsolete state 978; current map assigns it to state 909. CControllerArea dereferences a null province lookup (ID 0).",
+  "native_analysis": {
+    "exception_code": "0xc0000005",
+    "fault_rva": "0xcf2c40",
+    "access": "read",
+    "invalid_address": "0xc8",
+    "rax_is_null": true,
+    "matching_executable_supplied": true,
+    "objects": {
+      "rcx": {
+        "vtable_rva": "0x27211b0",
+        "type": ".?AVCCurrentGameState@@"
+      },
+      "r12": {
+        "vtable_rva": "0x2721158",
+        "type": ".?AVCCurrentGameState@@"
+      },
+      "r14": {
+        "vtable_rva": "0x295e818",
+        "type": ".?AVCControllerArea@@"
+      },
+      "current_loop_item": {
+        "vtable_rva": "0x2971b18",
+        "type": ".?AVCProvince@@"
+      }
+    },
+    "province_link": {
+      "province_id": 13532,
+      "definition_province_id": 13532,
+      "lookup_province_id": 0,
+      "lookup_database_size": 13535,
+      "layout_basis": "1.19.3 c01a CControllerArea fault site and CProvince data"
+    }
+  },
+  "matched_fault_instructions_with_supplied_PE": true,
+  "same_province_link_in_two_independent_dumps": true,
+  "wrong_state_ports_before": [
+    {
+      "province": 1351,
+      "old_state": 668,
+      "correct_state": 975
+    },
+    {
+      "province": 13532,
+      "old_state": 978,
+      "correct_state": 909
+    }
+  ],
+  "port_validation_after": {
+    "static_checks_passed": true,
+    "naval_spawns_checked": 2544,
+    "distinct_spawn_provinces": 2541,
+    "errors": [],
+    "warnings": [
+      {
+        "province": 4206,
+        "note": "2 naval spawns project to the same sampled province"
+      },
+      {
+        "province": 7683,
+        "note": "2 naval spawns project to the same sampled province"
+      },
+      {
+        "province": 12147,
+        "note": "2 naval spawns project to the same sampled province"
+      }
+    ]
+  },
+  "all_naval_spawn_records_identical_to_supplied_base": true,
+  "extra_state_preserved": 1144,
+  "extra_state_building_points_reassigned": 18,
+  "changed_mod_files_since_rufix_2": [
+    "descriptor.mod",
+    "map/buildings.txt"
+  ],
+  "russian_localisation_and_media_unchanged_since_rufix_2": true,
+  "gameplay_code_and_country_focuses_unchanged_since_rufix_2": true,
+  "executable_and_raw_dump_included_in_package": false
+}

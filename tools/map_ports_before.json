@@ -1,0 +1,35 @@
+{
+  "static_checks_passed": false,
+  "naval_spawns_checked": 2544,
+  "distinct_spawn_provinces": 2541,
+  "errors": [
+    {
+      "line": 51041,
+      "province": 1351,
+      "state": 668,
+      "correct_state": 975,
+      "error": "Naval spawn assigned to the wrong state"
+    },
+    {
+      "line": 52767,
+      "province": 13532,
+      "state": 978,
+      "correct_state": 909,
+      "error": "Naval spawn assigned to the wrong state"
+    }
+  ],
+  "warnings": [
+    {
+      "province": 4206,
+      "note": "2 naval spawns project to the same sampled province"
+    },
+    {
+      "province": 7683,
+      "note": "2 naval spawns project to the same sampled province"
+    },
+    {
+      "province": 12147,
+      "note": "2 naval spawns project to the same sampled province"
+    }
+  ]
+}
