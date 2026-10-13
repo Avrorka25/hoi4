@@ -1,0 +1,3 @@
+﻿l_russian:
+ SOV_assassinate_stalin_good_tt:0 "На Сталина совершено покушение\nШанс на успех = §G100%§!\n £trigger_yes База: 50%\n £trigger_yes $SOV_infiltrate_the_nkvd$: +50%"
+ SOV_assassinate_stalin_bad_tt:0 "На Сталина совершено покушение\nШанс на успех: §Y50%§!\n £trigger_yes База: 50%\n £trigger_no $SOV_infiltrate_the_nkvd$: +50%"

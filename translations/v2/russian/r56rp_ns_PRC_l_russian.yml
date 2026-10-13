@@ -1,0 +1,11 @@
+﻿l_russian:
+ r56rp_PRC_lower_illiteracy_mission:0 "Прибытие квалифицированных кадров"
+ r56rp_PRC_lower_illiteracy_mission_desc:0 "Со временем, при должном стимулировании, квалифицированные кадры из-за рубежа должны укрепить наш сектор RnD."
+ PRC_r56rp_permament_revolution_tt:0 "§GКаждая страна с§! §Y$PRC_influence$§! §GИдеи начнут коммунистическую гражданскую войну.§!"
+ PRC_r56rp_aid_workers_tt:0 "§GМы будем требовать аннексии от наших подданных наций.§! §Y$PRC_influence$§! §Gидея, или получить военные цели для независимых наций.§! §Y$PRC_influence$§! §GИдея.§!"
+ PRC_r56rp_develop_tibet:0 "Развитие [757.GetName]"
+ PRC_r56rp_develop_tibet_desc:0 ""
+ PRC_r56rp_develop_tunganistan:0 "Развитие [619.GetName]"
+ PRC_r56rp_develop_tunganistan_desc:0 ""
+ PRC_r56rp_develop_sinkiang:0 "Развитие [617.GetName]"
+ PRC_r56rp_develop_sinkiang_desc:0 ""

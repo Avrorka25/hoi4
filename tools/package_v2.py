@@ -7,7 +7,8 @@ import shutil
 import zipfile
 from pathlib import Path
 
-from update_v2 import SOURCE_SHA256, VERSION
+from update_v2 import SOURCE_SHA256
+from localise_v2 import PACKAGE_VERSION as VERSION
 
 
 def digest(path):
@@ -26,6 +27,12 @@ def main():
     validation = json.loads((repo / 'tools/v2_validation_report.json').read_text())
     if not validation['static_checks_passed']:
         raise ValueError('Standalone mod validation failed')
+    localisation = json.loads((repo / 'tools/v2_russian_report.json').read_text())
+    if not localisation['checks_passed']:
+        raise ValueError('Russian coverage validation failed')
+    factions = json.loads((repo / 'tools/v2_factions_report.json').read_text())
+    if not factions['only_faction_display_names_changed']:
+        raise ValueError('Unexpected faction scenario changes')
     original = {p.relative_to(args.original).as_posix(): p for p in args.original.rglob('*') if p.is_file()}
     current = {p.relative_to(args.root).as_posix(): p for p in args.root.rglob('*') if p.is_file()}
     removed = sorted(original.keys() - current.keys())
@@ -34,7 +41,7 @@ def main():
     changed = sorted(n for n in original if digest(original[n]) != digest(current[n]))
     added = sorted(current.keys() - original.keys())
     for name in changed:
-        if current[name].suffix not in ('.txt', '.yml', '.mod'):
+        if current[name].suffix not in ('.txt', '.yml', '.mod', '.gui'):
             raise ValueError(f'Unexpected asset modification: {name}')
     package = args.root.parent
     shutil.copyfile(repo / 'README_V2_119_RU.md', package / 'README_V2_119_RU.md')
@@ -43,13 +50,29 @@ def main():
               'unchanged_files': len(original) - len(changed),
               'validation': validation, 'changes': json.loads((repo / 'tools/v2_update_report.json').read_text()),
               'preservation_checks': json.loads((repo / 'tools/v2_regression_report.json').read_text()),
+              'russian_localisation': localisation,
+              'translation_methods': json.loads((repo / 'tools/v2_translation_coverage.json').read_text()),
+              'source_localisation_repairs': json.loads((repo / 'tools/v2_source_locale_repairs.json').read_text()),
+              'localised_faction_display_names': factions,
               'runtime_tested': False, 'graphics_sound_and_province_map_unchanged': True}
     (package / 'REPORT_V2.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     sums = []
-    for name, patch in [('RT56RP_v2_HOI4_1.19.zip', False), ('RT56RP_v2_HOI4_1.19_patch.zip', True)]:
+    for name, patch in [('RT56RP_v2_HOI4_1.19.zip', False), ('RT56RP_v2_HOI4_1.19_patch.zip', True),
+                        ('RT56RP_v2_Russian_patch.zip', 'russian')]:
         target = repo / name
+        selected = sorted(set(changed + added) if patch else current)
+        if patch == 'russian':
+            selected = sorted(n for n in current if n.startswith('localisation/russian/')
+                              or (n.startswith('localisation/') and '_l_russian.yml' in n)
+                              or (n.startswith('localisation/') and '/zzz_v2_' in n)
+                              or n == 'localisation/english/r56_countries_cosmetic_l_english.yml'
+                              or n == 'localisation/english/FIN_l_english.yml'
+                              or n == 'localisation/english/GRE_l_english.yml'
+                              or n == 'localisation/english/IRQ_l_english.yml'
+                              or n in factions['changed_files']
+                              or n == 'descriptor.mod' or (n.startswith('interface/') and n in changed))
         with zipfile.ZipFile(target, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
-            for relative in sorted(set(changed + added) if patch else current):
+            for relative in selected:
                 archive.write(current[relative], args.root.name + '/' + relative)
             for extra in [args.root.name + '.mod', 'README_V2_119_RU.md', 'REPORT_V2.json']:
                 archive.write(package / extra, extra)
@@ -64,7 +87,7 @@ def main():
     (repo / 'tools/v2_package_report.json').write_text(json.dumps({
         'package_version': VERSION, 'changed_files': changed, 'added_files': added, 'removed_files': removed,
         'unchanged_files': len(original) - len(changed), 'graphics_sound_and_province_map_unchanged': True,
-        'zip_crc_checks_passed': True, 'runtime_tested': False}, ensure_ascii=False, indent=2) + '\n')
+        'russian_localisation': localisation, 'zip_crc_checks_passed': True, 'runtime_tested': False}, ensure_ascii=False, indent=2) + '\n')
     print('Changed:', len(changed), 'added:', len(added), 'removed:', len(removed), flush=True)
 
 

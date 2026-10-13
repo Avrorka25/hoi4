@@ -1,10 +1,10 @@
 {
   "static_checks_passed": true,
   "counts": {
-    "utf8_text_files": 5617,
+    "utf8_text_files": 6055,
     "clausewitz_files": 5185,
-    "localization_files": 431,
-    "localization_entries": 146596,
+    "localization_files": 869,
+    "localization_entries": 293934,
     "empty_or_comment_only_localization_overrides": 5,
     "dds_files": 18183,
     "verified_alternate_texture_formats": 276,

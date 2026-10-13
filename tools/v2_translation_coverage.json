@@ -1,0 +1,23 @@
+{
+  "russian_files": 427,
+  "covered_entries": 146662,
+  "unique_keys": 138666,
+  "pending_entries": 0,
+  "methods": {
+    "supplied_rt56_rus": 106694,
+    "offline_machine_translation": 24107,
+    "sourced_exact_text": 4807,
+    "expression_or_number": 4924,
+    "machine_with_reviewed_terms": 151,
+    "reviewed_terms": 486,
+    "reviewed_override": 82,
+    "existing_machine_memory": 473,
+    "previous_rp_translation": 3272,
+    "historical_designation": 786,
+    "reviewed_template_with_sourced_name": 754,
+    "functional_identifier": 12,
+    "reviewed_faction_name": 60,
+    "reviewed_interface": 54
+  },
+  "game_expressions_preserved": true
+}

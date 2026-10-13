@@ -1,0 +1,311 @@
+{
+  "replaced_text_values": 61,
+  "localisation_keys": 54,
+  "changes": [
+    {
+      "file": "interface/CHI_elections.gui",
+      "english": "The Twilight of the Tutelage",
+      "key": "V2_RU_INTERFACE_161953506332"
+    },
+    {
+      "file": "interface/CHI_elections.gui",
+      "english": "Current Party Popularites:",
+      "key": "V2_RU_INTERFACE_68E461176355"
+    },
+    {
+      "file": "interface/CHI_elections.gui",
+      "english": "Power Struggle in the KMT",
+      "key": "V2_RU_INTERFACE_16AD0A105984"
+    },
+    {
+      "file": "interface/afg_persian_socialism_decision_gui.gui",
+      "english": "Attitude",
+      "key": "V2_RU_INTERFACE_B43CCB6B3EA7"
+    },
+    {
+      "file": "interface/afg_persian_socialism_decision_gui.gui",
+      "english": "Popularity",
+      "key": "V2_RU_INTERFACE_FE60D8511C44"
+    },
+    {
+      "file": "interface/countrydiplomacyview.gui",
+      "english": "Player",
+      "key": "V2_RU_INTERFACE_64AEE8C6CBD0"
+    },
+    {
+      "file": "interface/countrydiplomacyview.gui",
+      "english": "Your Faction Name Here",
+      "key": "V2_RU_INTERFACE_04109F1C40CF"
+    },
+    {
+      "file": "interface/countrydiplomacyview.gui",
+      "english": "cost 9001",
+      "key": "V2_RU_INTERFACE_BF99A44379D7"
+    },
+    {
+      "file": "interface/countrydiplomacyview.gui",
+      "english": "cost 9001",
+      "key": "V2_RU_INTERFACE_BF99A44379D7"
+    },
+    {
+      "file": "interface/countrypoliticsview.gui",
+      "english": "Government",
+      "key": "V2_RU_INTERFACE_C71E90D2F497"
+    },
+    {
+      "file": "interface/countrypoliticsview.gui",
+      "english": "Economic Laws",
+      "key": "V2_RU_INTERFACE_A51383E6F829"
+    },
+    {
+      "file": "interface/countrypoliticsview.gui",
+      "english": "Switch out Henschel",
+      "key": "V2_RU_INTERFACE_B1CF9337DE0F"
+    },
+    {
+      "file": "interface/countrypoliticsview.gui",
+      "english": "sub category",
+      "key": "V2_RU_INTERFACE_696DA7C2360D"
+    },
+    {
+      "file": "interface/countrypoliticsview.gui",
+      "english": "party name",
+      "key": "V2_RU_INTERFACE_DC250774AF6D"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "CLIMATE SPECIFIC EQUIPMENT",
+      "key": "V2_RU_INTERFACE_912BB588F168"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "MECHANIZED INFRANTRY",
+      "key": "V2_RU_INTERFACE_5EBE72B82745"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "TRAINS & RAILWAYS",
+      "key": "V2_RU_INTERFACE_7EBBDFFAD780"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "CV Fighter",
+      "key": "V2_RU_INTERFACE_21F8F841BB53"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Dive Bomber",
+      "key": "V2_RU_INTERFACE_CDB08C6B1347"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "CV Dive Bomber",
+      "key": "V2_RU_INTERFACE_797B5C64F528"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Torpedo Bomber",
+      "key": "V2_RU_INTERFACE_636E32BCBE5A"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Medium Bomber",
+      "key": "V2_RU_INTERFACE_9656F33F38A8"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Maritime Patrol",
+      "key": "V2_RU_INTERFACE_CBA40C85748D"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Heavy Bomber",
+      "key": "V2_RU_INTERFACE_AE47762231F9"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Machine Tools",
+      "key": "V2_RU_INTERFACE_CD77B20E49AD"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Industry",
+      "key": "V2_RU_INTERFACE_B44484A0FA28"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Construction",
+      "key": "V2_RU_INTERFACE_9DC7E90E56B2"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Excavation",
+      "key": "V2_RU_INTERFACE_A450E963A078"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Synthetics",
+      "key": "V2_RU_INTERFACE_F45C09298191"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Oil Storage",
+      "key": "V2_RU_INTERFACE_A7A3D79149EC"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Fuel Refining",
+      "key": "V2_RU_INTERFACE_B9E078EF2460"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Metal Foundries",
+      "key": "V2_RU_INTERFACE_CA1AF77DC7B7"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Rubber Plants",
+      "key": "V2_RU_INTERFACE_3C5E441181F3"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Atomics",
+      "key": "V2_RU_INTERFACE_466653EBA117"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "Where is the name?",
+      "key": "V2_RU_INTERFACE_64097E0C9F0C"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "english": "category:",
+      "key": "V2_RU_INTERFACE_7DD45CBEB07D"
+    },
+    {
+      "file": "interface/equipmentdesignerview.gui",
+      "english": "Too much",
+      "key": "V2_RU_INTERFACE_71980C8D1B8A"
+    },
+    {
+      "file": "interface/equipmentupgradedesignerwindow.gui",
+      "english": "Name",
+      "key": "V2_RU_INTERFACE_DCD1D5223F73"
+    },
+    {
+      "file": "interface/nationalfocusview.gui",
+      "english": "Hello world!",
+      "key": "V2_RU_INTERFACE_C0535E4BE2B7"
+    },
+    {
+      "file": "interface/nationalfocusview.gui",
+      "english": "Description",
+      "key": "V2_RU_INTERFACE_526E0087CC3F"
+    },
+    {
+      "file": "interface/nationalfocusview.gui",
+      "english": "Description",
+      "key": "V2_RU_INTERFACE_526E0087CC3F"
+    },
+    {
+      "file": "interface/plane_designer_view.gui",
+      "english": "Refit Cost: XXXX",
+      "key": "V2_RU_INTERFACE_87A9AC810B68"
+    },
+    {
+      "file": "interface/r56_ISR_knesset.gui",
+      "english": "The Israeli Knesset",
+      "key": "V2_RU_INTERFACE_5E8FE86559BB"
+    },
+    {
+      "file": "interface/r56_ISR_knesset.gui",
+      "english": "Current Seat Distribution:",
+      "key": "V2_RU_INTERFACE_FBA9A72BBCA0"
+    },
+    {
+      "file": "interface/r56_bundeslaender.gui",
+      "english": "Balance of Power",
+      "key": "V2_RU_INTERFACE_A7FA79C5A40E"
+    },
+    {
+      "file": "interface/r56_pal_liberalism_gui.gui",
+      "english": "The Religion Dilemma",
+      "key": "V2_RU_INTERFACE_AF8ECBD46D34"
+    },
+    {
+      "file": "interface/r56_pal_liberalism_gui.gui",
+      "english": "Conservatism",
+      "key": "V2_RU_INTERFACE_4870E7FC1E1B"
+    },
+    {
+      "file": "interface/r56_pal_liberalism_gui.gui",
+      "english": "Liberalism",
+      "key": "V2_RU_INTERFACE_78FEB6E61E56"
+    },
+    {
+      "file": "interface/r56_pal_liberalism_gui.gui",
+      "english": "The Religion Dilemma",
+      "key": "V2_RU_INTERFACE_AF8ECBD46D34"
+    },
+    {
+      "file": "interface/r56_pal_liberalism_gui.gui",
+      "english": "Islamic Socialism",
+      "key": "V2_RU_INTERFACE_267E359E273B"
+    },
+    {
+      "file": "interface/r56_pal_liberalism_gui.gui",
+      "english": "State Atheism",
+      "key": "V2_RU_INTERFACE_8BD9F92943A5"
+    },
+    {
+      "file": "interface/r56rp_tools.gui",
+      "english": "Selected States",
+      "key": "V2_RU_INTERFACE_2CF0E38D45DC"
+    },
+    {
+      "file": "interface/r56rp_tools.gui",
+      "english": "TARGET: [THIS.owner.GetFlag] [THIS.owner.GetName]",
+      "key": "V2_RU_INTERFACE_1AEBBD660E23"
+    },
+    {
+      "file": "interface/topbar.gui",
+      "english": "7:00 29, September 1939",
+      "key": "V2_RU_INTERFACE_1877C0DE47A3"
+    },
+    {
+      "file": "interface/unitview.gui",
+      "english": "Kill Count",
+      "key": "V2_RU_INTERFACE_131950CA555D"
+    },
+    {
+      "file": "interface/unitview.gui",
+      "english": "Experience Count",
+      "key": "V2_RU_INTERFACE_BA1ED55EF6DD"
+    },
+    {
+      "file": "interface/unitview.gui",
+      "english": "Stuff",
+      "key": "V2_RU_INTERFACE_A01BE2E69E3D"
+    },
+    {
+      "file": "interface/unitview.gui",
+      "english": "Stuff",
+      "key": "V2_RU_INTERFACE_A01BE2E69E3D"
+    },
+    {
+      "file": "interface/unitview.gui",
+      "english": "Stuff",
+      "key": "V2_RU_INTERFACE_A01BE2E69E3D"
+    },
+    {
+      "file": "interface/unitview.gui",
+      "english": "Stuff",
+      "key": "V2_RU_INTERFACE_A01BE2E69E3D"
+    },
+    {
+      "file": "interface/unitview.gui",
+      "english": "Experience Count",
+      "key": "V2_RU_INTERFACE_BA1ED55EF6DD"
+    }
+  ]
+}

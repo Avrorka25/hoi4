@@ -1,0 +1,6 @@
+﻿l_russian:
+ unlock_naval_advisors_tooltip:0 "Открывает §Yсоветников флота§!.\n"
+ unlock_air_force_advisors_tooltip:0 "Открывает §Yсоветников ВВС§!.\n"
+ trade_policy_open_up_tooltip:0 "Изменить наши §Yзаконы о торговле§! в сторону §Bсвободной торговли§!.\n"
+ trade_policy_open_up_twice_tooltip:0 "Дважды изменить наши §Yзаконы о торговле§! в сторону §Bсвободной торговли§!.\n"
+ trade_policy_closing_tooltip:0 "Изменить наши §Yзаконы о торговле§! в сторону §Bзакрытой экономики§!.\n"

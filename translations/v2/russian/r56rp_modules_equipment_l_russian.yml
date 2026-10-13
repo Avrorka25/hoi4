@@ -1,0 +1,11 @@
+﻿l_russian:
+ r56rp_armored_train_equipment_2:0 "Бронепоезд II"
+ r56rp_armored_train_equipment_2_desc:0 "Повышенная толщина бронирования, более надежный и мощный локомотив и интегрированная зенитная артиллерия."
+ r56rp_railway_gun_equipment_2:0 "Театральная баллистическая ракета"
+ r56rp_railway_gun_equipment_2_short:0 "Театральная ракета"
+ r56rp_railway_gun_equipment_2_desc:0 "Железная дорога запустила баллистические ракеты с меньшей дальностью, чем у SRBM."
+ r56rp_heli:0 "разведка Вертолет"
+ r56rp_heli_eq_1:0 "Вертолет разведка I"
+ r56rp_heli_eq_2:0 "Вертолет разведка II"
+ r56rp_helo_c_eq:0 "Грузовой вертолет"
+ r56rp_heli_c_eq_1:0 "Грузовой вертолет I"

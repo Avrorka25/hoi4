@@ -45,6 +45,8 @@ def validate(root):
                 header = next((s.strip() for s in text.splitlines() if s.strip() and not s.lstrip().startswith('#')), '')
                 if not re.fullmatch(r'l_[a-z_]+:', header):
                     errors.append(f'{relative}: invalid localization header')
+                elif header not in {f'l_{lang}:' for lang in ('english', 'russian', 'german', 'french', 'spanish', 'braz_por', 'polish', 'japanese', 'simp_chinese')}:
+                    errors.append(f'{relative}: unsupported localization language {header}')
                 for line, value in enumerate(text.splitlines(), 1):
                     if not value.strip() or value.lstrip().startswith('#') or re.fullmatch(r'\s*l_[a-z_]+:\s*', value):
                         continue

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "r56_countries_cosmetic_l_english.yml",
+    "before": "CYP_UK_autonomy_integrated_puppet:0 \"$$OVERLORDADJ$ $NONIDEOLOGY$\"",
+    "after": "CYP_UK_autonomy_integrated_puppet:0 \"$OVERLORDADJ$ $NONIDEOLOGY$\""
+  },
+  {
+    "file": "FIN_l_english.yml",
+    "before": "\"[SOV.GetName  Agrees.\"",
+    "after": "\"[SOV.GetName] Agrees.\""
+  },
+  {
+    "file": "GRE_l_english.yml",
+    "before": "[GRE.GetnameDef]]",
+    "after": "[GRE.GetNameDef]"
+  },
+  {
+    "file": "IRQ_l_english.yml",
+    "before": "[IRQ.GetnameDefCap has",
+    "after": "[IRQ.GetNameDefCap] has"
+  }
+]

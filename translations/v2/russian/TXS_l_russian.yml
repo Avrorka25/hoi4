@@ -1,0 +1,8 @@
+﻿l_russian:
+ TXS_dan_moody:0 "Дэн Муди"
+ TXS_allan_shivers:0 "Аллан Шиверс"
+ TXS_cowboy_tradition:0 "Ковбойские традиции"
+ TXS_cowboy_tradition_desc:0 "[ROOT.GetNonIdeologyName] — земля скотоводов и стрелков. Каждый мужчина, женщина и ребёнок держит оружие под рукой, а коня — готовым служить родине. Йи-ха!"
+ form_greater_texas:0 "Претендовать на Великий Техас"
+ form_greater_texas_desc:0 "Стивен Ф. Остин, которого считают «отцом Техаса», представлял [TXS.GetAdjective] государство, включавшее огромные территории тогдашней южной части [MEX.GetNonIdeologyName]. Теперь пришло время воплотить это видение в жизнь."
+ TXS_formed_greater_texas:0 "Сформирован Великий Техас"

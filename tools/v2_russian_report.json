@@ -1,0 +1,19 @@
+{
+  "checks_passed": true,
+  "counts": {
+    "covered_file_entries": 146295,
+    "covered_source_lines": 146662,
+    "source_duplicate_lines_preserved": 367,
+    "interface_key_references": 54,
+    "faction_name_key_references": 61,
+    "english_files": 427,
+    "russian_files": 427,
+    "unique_english_keys": 138666,
+    "unique_russian_keys": 138666,
+    "missing_keys": 0,
+    "latin_only_entries": 8402
+  },
+  "errors": [],
+  "runtime_tested": false,
+  "editorial_review_complete": false
+}

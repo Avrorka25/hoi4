@@ -1,0 +1,13 @@
+﻿l_russian:
+ TRIGGER_OVERLORD:1 "§YМетрополия§!"
+ TRIGGER_IS_PUPPET:1 "Является субъектом другой страны"
+ TRIGGER_IS_NOT_PUPPET:1 "Полностью независимо"
+ TRIGGER_IS_SUBJECT:1 "Является субъектом другой страны"
+ TRIGGER_IS_NOT_SUBJECT:1 "Полностью независимо"
+ TRIGGER_IS_FRIEND:0 "Является союзником @$TAG$$OTHER|H$\n"
+ TRIGGER_IS_ALLY:0 "является союзником $OTHER|H$.\n"
+ TRIGGER_IS_NOT_FRIEND:0 "Не является союзником @$TAG$$OTHER|H$\n"
+ TRIGGER_IS_NOT_ALLY:0 "Не является союзником $OTHER|H$.\n"
+ ADD_UNIT_MEDAL_DIV_EFFECT:0 "Дивизия будет награждена §Yмедалью§!"
+ TRIGGER_HAS_WAR_LENGTH_WITH_LESS_THAN:0 "Воюет с $COUNTRY2|H$ менее $VALUE|H$ месяцев"
+ TRIGGER_HAS_WAR_LENGTH_WITH_MORE_THAN:0 "Воюет с $COUNTRY2|H$ не менее $VALUE|H$ месяцев"

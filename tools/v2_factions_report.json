@@ -1,0 +1,368 @@
+{
+  "changed_files": [
+    "common/national_focus/armenia.txt",
+    "common/national_focus/finland.txt",
+    "common/national_focus/india.txt",
+    "common/national_focus/israel.txt",
+    "common/national_focus/latvia.txt",
+    "common/national_focus/mandate_of_palestine.txt",
+    "common/national_focus/mongolia.txt",
+    "common/national_focus/pakistan.txt",
+    "common/national_focus/palestine.txt",
+    "common/national_focus/r56_afghanistan.txt",
+    "common/national_focus/r56_belgium.txt",
+    "common/national_focus/r56_brazil.txt",
+    "common/national_focus/r56_denmark.txt",
+    "common/national_focus/r56_iraq.txt",
+    "common/national_focus/r56_luxembourg.txt",
+    "common/national_focus/r56_mexico.txt",
+    "common/national_focus/r56_persia.txt",
+    "common/national_focus/r56_philippines.txt",
+    "common/national_focus/r56_political_spain_nationalist_shared.txt",
+    "common/national_focus/r56_sweden.txt",
+    "common/national_focus/r56_west_african_shared.txt",
+    "common/national_focus/saudi_arabia.txt",
+    "common/national_focus/scotland.txt",
+    "common/national_focus/siam.txt",
+    "common/national_focus/spain.txt",
+    "common/national_focus/sweden.txt",
+    "common/national_focus/tibet.txt",
+    "common/national_focus/uk.txt",
+    "common/national_focus/ukraine.txt",
+    "events/Italy.txt",
+    "events/Mongolia.txt",
+    "events/Quebec.txt",
+    "events/r56_usa.txt",
+    "events/r56rp_ns_ger.txt"
+  ],
+  "changed_display_names": 65,
+  "unique_faction_names": 60,
+  "only_faction_display_names_changed": true,
+  "changes": [
+    {
+      "file": "common/national_focus/armenia.txt",
+      "english": "Transcaucasian Confederation",
+      "key": "V2_RU_FACTION_E4335D04FA24"
+    },
+    {
+      "file": "common/national_focus/finland.txt",
+      "english": "Nordmark Pact",
+      "key": "V2_RU_FACTION_BA0A2751F208"
+    },
+    {
+      "file": "common/national_focus/india.txt",
+      "english": "Left Opposition",
+      "key": "V2_RU_FACTION_01F34F2B57C1"
+    },
+    {
+      "file": "common/national_focus/israel.txt",
+      "english": "Alliance of the Periphery",
+      "key": "V2_RU_FACTION_64A9CF9E7599"
+    },
+    {
+      "file": "common/national_focus/latvia.txt",
+      "english": "Heroic Strikers Alliance",
+      "key": "V2_RU_FACTION_8CEC2584B7DA"
+    },
+    {
+      "file": "common/national_focus/mandate_of_palestine.txt",
+      "english": "The Middle East Peace Accords",
+      "key": "V2_RU_FACTION_01F8A9D57CF6"
+    },
+    {
+      "file": "common/national_focus/mongolia.txt",
+      "english": "Liberation Front",
+      "key": "V2_RU_FACTION_CF60AFA8FBB3"
+    },
+    {
+      "file": "common/national_focus/mongolia.txt",
+      "english": "Kurultai Pact",
+      "key": "V2_RU_FACTION_77D6F273F4DE"
+    },
+    {
+      "file": "common/national_focus/mongolia.txt",
+      "english": "Central Asian Democratic League",
+      "key": "V2_RU_FACTION_56BC6DB6B18C"
+    },
+    {
+      "file": "common/national_focus/pakistan.txt",
+      "english": "Pan Muslim Pact",
+      "key": "V2_RU_FACTION_8D105ABA8687"
+    },
+    {
+      "file": "common/national_focus/pakistan.txt",
+      "english": "Pan Asian People's Alliance",
+      "key": "V2_RU_FACTION_215E838BE1F9"
+    },
+    {
+      "file": "common/national_focus/pakistan.txt",
+      "english": "Neo Mughal Empire",
+      "key": "V2_RU_FACTION_3EFF8401340F"
+    },
+    {
+      "file": "common/national_focus/palestine.txt",
+      "english": "Al Khilafah Al Islamiyyah",
+      "key": "V2_RU_FACTION_5743BC81E029"
+    },
+    {
+      "file": "common/national_focus/palestine.txt",
+      "english": "The Hashemite Union",
+      "key": "V2_RU_FACTION_79749079C50E"
+    },
+    {
+      "file": "common/national_focus/palestine.txt",
+      "english": "The Jerusalem Pact",
+      "key": "V2_RU_FACTION_8D37D0AA2D6F"
+    },
+    {
+      "file": "common/national_focus/palestine.txt",
+      "english": "The Arab Coalition",
+      "key": "V2_RU_FACTION_42E4B1522A60"
+    },
+    {
+      "file": "common/national_focus/r56_afghanistan.txt",
+      "english": "Kabul Pact",
+      "key": "V2_RU_FACTION_2C40C0E27674"
+    },
+    {
+      "file": "common/national_focus/r56_afghanistan.txt",
+      "english": "Afghan Socialist Front",
+      "key": "V2_RU_FACTION_211B57839DF6"
+    },
+    {
+      "file": "common/national_focus/r56_afghanistan.txt",
+      "english": "Ittihad-e Islami",
+      "key": "V2_RU_FACTION_0A154EAE8DD7"
+    },
+    {
+      "file": "common/national_focus/r56_afghanistan.txt",
+      "english": "Afghan-Pakistani Coalition",
+      "key": "V2_RU_FACTION_3205DE753FD4"
+    },
+    {
+      "file": "common/national_focus/r56_belgium.txt",
+      "english": "Egmont Treaty",
+      "key": "V2_RU_FACTION_CF9DA9C14B9C"
+    },
+    {
+      "file": "common/national_focus/r56_brazil.txt",
+      "english": "Transatlantic Pact",
+      "key": "V2_RU_FACTION_6B09DF622108"
+    },
+    {
+      "file": "common/national_focus/r56_brazil.txt",
+      "english": "Internacional Americana",
+      "key": "V2_RU_FACTION_4154B6F04D11"
+    },
+    {
+      "file": "common/national_focus/r56_brazil.txt",
+      "english": "Rio Pact",
+      "key": "V2_RU_FACTION_D6581BA00C8B"
+    },
+    {
+      "file": "common/national_focus/r56_denmark.txt",
+      "english": "Northern Lights",
+      "key": "V2_RU_FACTION_6795C9959EC4"
+    },
+    {
+      "file": "common/national_focus/r56_denmark.txt",
+      "english": "Northern Lights",
+      "key": "V2_RU_FACTION_6795C9959EC4"
+    },
+    {
+      "file": "common/national_focus/r56_denmark.txt",
+      "english": "Nordic Worker's Front",
+      "key": "V2_RU_FACTION_B3662F4C2444"
+    },
+    {
+      "file": "common/national_focus/r56_denmark.txt",
+      "english": "Nordic Treaty of Reciprocal Assistance",
+      "key": "V2_RU_FACTION_9AB3BD062B98"
+    },
+    {
+      "file": "common/national_focus/r56_iraq.txt",
+      "english": "Iraqi Supremacy League",
+      "key": "V2_RU_FACTION_D0BE90A20854"
+    },
+    {
+      "file": "common/national_focus/r56_luxembourg.txt",
+      "english": "European Union",
+      "key": "V2_RU_FACTION_7FE24F2B7BA5"
+    },
+    {
+      "file": "common/national_focus/r56_luxembourg.txt",
+      "english": "Alliance of European Socialists",
+      "key": "V2_RU_FACTION_A1FC9115EA1E"
+    },
+    {
+      "file": "common/national_focus/r56_luxembourg.txt",
+      "english": "Alliance of European Socialists",
+      "key": "V2_RU_FACTION_A1FC9115EA1E"
+    },
+    {
+      "file": "common/national_focus/r56_luxembourg.txt",
+      "english": "International Opposition",
+      "key": "V2_RU_FACTION_322A30FDCE5D"
+    },
+    {
+      "file": "common/national_focus/r56_mexico.txt",
+      "english": "Latin American Free Trade Association",
+      "key": "V2_RU_FACTION_A7C7F3B4059E"
+    },
+    {
+      "file": "common/national_focus/r56_persia.txt",
+      "english": "Free Middle Eastern Alliance",
+      "key": "V2_RU_FACTION_CD25CA169372"
+    },
+    {
+      "file": "common/national_focus/r56_philippines.txt",
+      "english": "Southeast Asian Worker's Front",
+      "key": "V2_RU_FACTION_942AB71ACCE4"
+    },
+    {
+      "file": "common/national_focus/r56_political_spain_nationalist_shared.txt",
+      "english": "Holy Alliance",
+      "key": "V2_RU_FACTION_A640F57D6BF5"
+    },
+    {
+      "file": "common/national_focus/r56_sweden.txt",
+      "english": "Northern European Treaty Organisation",
+      "key": "V2_RU_FACTION_B80D6D4AFAB8"
+    },
+    {
+      "file": "common/national_focus/r56_sweden.txt",
+      "english": "Nord-Center Europa Pakten",
+      "key": "V2_RU_FACTION_6078D56C9824"
+    },
+    {
+      "file": "common/national_focus/r56_sweden.txt",
+      "english": "Stockholm Accord",
+      "key": "V2_RU_FACTION_EDE01EF94844"
+    },
+    {
+      "file": "common/national_focus/r56_sweden.txt",
+      "english": "Scandinavian League",
+      "key": "V2_RU_FACTION_20DB4C27BC0A"
+    },
+    {
+      "file": "common/national_focus/r56_sweden.txt",
+      "english": "The Northern Front",
+      "key": "V2_RU_FACTION_CAA57C293427"
+    },
+    {
+      "file": "common/national_focus/r56_sweden.txt",
+      "english": "Nordic Union",
+      "key": "V2_RU_FACTION_676A40884A8B"
+    },
+    {
+      "file": "common/national_focus/r56_sweden.txt",
+      "english": "The Stockholm Internationale",
+      "key": "V2_RU_FACTION_E6EB8B8485D6"
+    },
+    {
+      "file": "common/national_focus/r56_west_african_shared.txt",
+      "english": "African Anti-Imperialist League",
+      "key": "V2_RU_FACTION_836B00E8EF8E"
+    },
+    {
+      "file": "common/national_focus/r56_west_african_shared.txt",
+      "english": "West African Defense Treaty",
+      "key": "V2_RU_FACTION_D81A468F6E27"
+    },
+    {
+      "file": "common/national_focus/saudi_arabia.txt",
+      "english": "Jabhat al-Tahrir al-Arabia",
+      "key": "V2_RU_FACTION_DCF933FC332B"
+    },
+    {
+      "file": "common/national_focus/scotland.txt",
+      "english": "Treaty of Castle Rock",
+      "key": "V2_RU_FACTION_5A1E74753548"
+    },
+    {
+      "file": "common/national_focus/scotland.txt",
+      "english": "The North Sea Defense Treaty",
+      "key": "V2_RU_FACTION_EB404959C2E6"
+    },
+    {
+      "file": "common/national_focus/scotland.txt",
+      "english": "The Auld Alliance",
+      "key": "V2_RU_FACTION_841C4543C88B"
+    },
+    {
+      "file": "common/national_focus/siam.txt",
+      "english": "People's League of Asia",
+      "key": "V2_RU_FACTION_95977B881A4B"
+    },
+    {
+      "file": "common/national_focus/spain.txt",
+      "english": "Holy Alliance",
+      "key": "V2_RU_FACTION_A640F57D6BF5"
+    },
+    {
+      "file": "common/national_focus/sweden.txt",
+      "english": "Swedish-Finnish Defense Agreement",
+      "key": "V2_RU_FACTION_F5E527477FF2"
+    },
+    {
+      "file": "common/national_focus/tibet.txt",
+      "english": "Maoist Workers Front",
+      "key": "V2_RU_FACTION_5BFCB2893FC4"
+    },
+    {
+      "file": "common/national_focus/tibet.txt",
+      "english": "Himalayan Cooperation Accord",
+      "key": "V2_RU_FACTION_8719CA420B9C"
+    },
+    {
+      "file": "common/national_focus/uk.txt",
+      "english": "Union International",
+      "key": "V2_RU_FACTION_BBBED72BBE87"
+    },
+    {
+      "file": "common/national_focus/uk.txt",
+      "english": "London Workers Congress",
+      "key": "V2_RU_FACTION_A589ED11118B"
+    },
+    {
+      "file": "common/national_focus/ukraine.txt",
+      "english": "Treaty of Kyiv",
+      "key": "V2_RU_FACTION_C8537F5D5C88"
+    },
+    {
+      "file": "events/Italy.txt",
+      "english": "Rome Protocols",
+      "key": "V2_RU_FACTION_9D022FA20481"
+    },
+    {
+      "file": "events/Mongolia.txt",
+      "english": "Ulaanbaatar-Yan'an Pact",
+      "key": "V2_RU_FACTION_4618E769B97E"
+    },
+    {
+      "file": "events/Mongolia.txt",
+      "english": "Ulaanbaatar-Yan'an Pact",
+      "key": "V2_RU_FACTION_4618E769B97E"
+    },
+    {
+      "file": "events/Quebec.txt",
+      "english": "Alliance Française",
+      "key": "V2_RU_FACTION_BED21D6D08AE"
+    },
+    {
+      "file": "events/r56_usa.txt",
+      "english": "Franco-American Alliance",
+      "key": "V2_RU_FACTION_266B83FCAFF1"
+    },
+    {
+      "file": "events/r56_usa.txt",
+      "english": "Franco-American Alliance",
+      "key": "V2_RU_FACTION_266B83FCAFF1"
+    },
+    {
+      "file": "events/r56rp_ns_ger.txt",
+      "english": "Mexican-German Pact",
+      "key": "V2_RU_FACTION_74D0C3892337"
+    }
+  ]
+}
